@@ -1,0 +1,50 @@
+{
+  "id": "episode-002",
+  "title": "Debat #2: Bayangan Bumi saat gerhana bulan",
+  "topic": "Bayangan Bumi saat gerhana bulan",
+  "status": "partial",
+  "turns_per_side": 6,
+  "turns": [
+    {
+      "n": 1,
+      "side": "datar",
+      "speaker": "Kubu Bumi Datar",
+      "model": "dahono/kimi-k2.8",
+      "text": "Terima kasih. Argumen pembuka saya sederhana: bayangan bundar saat gerhana bulan tidak otomatis membuktikan Bumi berbentuk bola. Yang kita saksikan hanyalah proyeksi gelap di permukaan Bulan; bentuk bundar bisa dihasilkan banyak objek, termasuk cakram, dan tanpa pengukuran langsung dari luar kita hanya menafsirkan penyebabnya. Jika Bumi dianggap cakram datar, pertanyaannya bukan “mengapa bayangannya bundar”, melainkan apakah kita benar-benar sudah membuktikan bahwa bayangan itu berasal dari Bumi, bukan dari objek lain di antara Matahari dan Bulan. Saya menunggu penjelasan lawan."
+    },
+    {
+      "n": 2,
+      "side": "bulat",
+      "speaker": "Kubu Bumi Bulat",
+      "model": "dahono/deepseek-v4.1-flash-netra",
+      "text": "Poin Anda benar bahwa bentuk bundar sendiri belum cukup; yang menentukan adalah perilaku bayangan dari berbagai sudut. Saat gerhana bulan, Bumi selalu berada di antara Matahari dan Bulan, dan tepi bayangannya tetap lingkaran meski Bulan berada di k"
+    },
+    {
+      "n": 3,
+      "side": "datar",
+      "speaker": "Kubu Bumi Datar",
+      "model": "dahono/kimi-k2.8",
+      "text": "Poin Anda justru mengasumsikan Bumi sudah bola; itu yang ingin dibuktikan. Bumi datar berbentuk cakram: saat segaris Matahari–Bumi–Bulan, tepi bayangan cakram juga tampak lingkaran. Bulan yang bergeser posisi hanya melewati bagian berbeda dari bayangan itu, bukan otomatis membuktikan sumbernya bola. Untuk membedakan cakram dan bola, Anda perlu pengukuran lengkungan tepi bayangan dari geometri yang benar-benar berbeda, bukan satu jenis gerhana. Jadi “tepi selalu lingkaran” belum memutuskan bentuk Bumi."
+    },
+    {
+      "n": 4,
+      "side": "bulat",
+      "speaker": "Kubu Bumi Bulat",
+      "model": "dahono/deepseek-v4.1-flash-netra",
+      "text": "Setuju, satu gerhana saja memang belum memutuskan. Tapi gerhana terjadi berulang dengan geometri berbeda: kadang Bulan lewat tepi, kadang pusat, pada ketinggian Matahari yang berubah. Jika Bumi cakram, saat Matahari tidak sejajar bidang cakram, umbra akan tampak lonjong atau elips. Kenyataannya tepi umbra tetap lingkaran"
+    },
+    {
+      "n": 5,
+      "side": "datar",
+      "speaker": "Kubu Bumi Datar",
+      "model": "dahono/kimi-k2.8",
+      "text": "Poin Anda bergantung pada asumsi bahwa bidang orbit Bulan cukup miring terhadap bidang cakram, sehingga umbra wajib tampak elips. Dalam model cakram, ketinggian Matahari tidak otomatis memiringkan bidang bayangan terhadap Bulan; yang menentukan proyeksi adalah orientasi bidang Bulan saat gerhana. Jika bidang itu nyaris sejajar cakram, bayangan cakram tetap lingkaran meski Bulan lewat tepi. Tepi umbra yang Anda ukur juga kabur akibat penumbra dan atmosfer, sehingga elips tipis sulit dibedakan dari lingkaran. Jadi data itu masih bisa ditafsirkan dua cara, belum memutuskan."
+    }
+  ],
+  "models": {
+    "bulat": "dahono/deepseek-v4.1-flash-netra",
+    "datar": "dahono/kimi-k2.8"
+  },
+  "generated_by": "github-actions",
+  "note": "Kedua kubu diperankan AI untuk hiburan/edukasi."
+}
