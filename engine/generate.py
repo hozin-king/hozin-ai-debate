@@ -152,12 +152,17 @@ def chat(key, model, system_prompt, history_text, last_opponent):
         },
     )
     try:
-        text = body["choices"][0]["message"]["content"].strip()
+        content = body["choices"][0]["message"]["content"]
     except (KeyError, IndexError, TypeError):
         raise RuntimeError("respons chat tidak berisi teks jawaban")
-    if not text:
+    # Sebagian model kadang mengembalikan content=None (mis. keluaran
+    # reasoning-only / tool-call tanpa teks). Itu harus jadi kegagalan
+    # yang bisa di-retry (RuntimeError), BUKAN crash AttributeError —
+    # kalau tidak, satu giliran kosong menggagalkan seluruh run dan
+    # episode yang sudah terkumpul ikut hilang (insiden episode-002).
+    if not isinstance(content, str) or not content.strip():
         raise RuntimeError("respons chat kosong")
-    return truncate(text)
+    return truncate(content.strip())
 
 
 def truncate(text):
