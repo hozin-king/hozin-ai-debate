@@ -1,0 +1,99 @@
+{
+  "id": "episode-003",
+  "title": "Debat #3: Kapal yang menghilang di horizon dan lengkung laut",
+  "topic": "Kapal yang menghilang di horizon dan lengkung laut",
+  "status": "live",
+  "turns_per_side": 6,
+  "turns": [
+    {
+      "n": 1,
+      "side": "bulat",
+      "speaker": "Kubu Bumi Bulat",
+      "model": "dahono/deepseek-v4.1-flash",
+      "text": "Saya mulai dari yang bisa disaksikan: saat kapal menjauh, lambungnya hilang lebih dulu, tiang baru menyusul. Itu konsisten dengan permukaan melengkung, bukan bidang datar. Jika air datar, seluruh kapal semestinya mengecil seragam sampai tak terlihat. Teleskop hanya menajamkan objek yang masih dalam garis pandang; ia tak bisa memunculkan kapal yang sudah terhalang lengkung air. Jarak horizon juga berubah sesuai ketinggian pengamat, seperti dihitung geometri bola pepat. Jadi hilangnya kapal di horizon adalah bukti sederhana kelengkungan Bumi yang bisa diuji siapa saja."
+    },
+    {
+      "n": 2,
+      "side": "datar",
+      "speaker": "Kubu Bumi Datar",
+      "model": "dahono/kimi-k2.8",
+      "text": "Poin lambung hilang lebih dulu memang terlihat, tetapi itu belum otomatis membuktikan lengkung. Pada bidang datar, garis pandang, gelombang rendah, dan batas resolusi mata bisa membuat bagian bawah kapal kabur lebih dulu, sementara tiang yang lebih tinggi masih tertangkap. Soal teleskop: justru ada banyak pengamatan yang melaporkan lambung kapal kembali tampak saat diperbesar, jadi klaim bahwa teleskop “tidak bisa” memulihkannya masih berupa asumsi, bukan hasil uji yang bersih. Horizon yang berubah dengan ketinggian pengamat juga bisa dijelaskan oleh perspektif pada bidang datar; yang saya pertanyakan, mengapa horizon tetap tampak lurus mendatar, bukan melengkung turun di kiri-kanan."
+    },
+    {
+      "n": 3,
+      "side": "bulat",
+      "speaker": "Kubu Bumi Bulat",
+      "model": "dahono/deepseek-v4.1-flash",
+      "text": "Poin gelombang, resolusi, dan refraksi memang bisa mengaburkan pengamatan, jadi saya tidak mengklaim satu kapal saja sebagai bukti mutlak. Tapi pola sistematisnya—lambung hilang lebih dulu pada jarak yang konsisten dengan geometri Bumi—tetap lebih alami dijelaskan oleh lengkung. Laporan teleskop yang “memulihkan” lambung biasanya cocok dengan refraksi/mirage atau pengamat yang lebih tinggi, bukan pemulihan objek yang sudah di bawah horizon geometris. Horizon tampak lurus karena radius Bumi besar dan pandangan kita sempit: pada ketinggian mata, lengkungnya terlalu kecil untuk terlihat; dari altitude tinggi atau lensa lebar, horizon memang melengkung."
+    },
+    {
+      "n": 4,
+      "side": "datar",
+      "speaker": "Kubu Bumi Datar",
+      "model": "dahono/kimi-k2.8",
+      "text": "Poin Anda bahwa pola itu “konsisten dengan geometri Bumi” masih bergantung pada asumsi jarak, ketinggian pengamat, dan model refraksi yang cukup lentur untuk disesuaikan setelah fakta. Tanpa pengukuran langsung, kecocokan seperti itu bukan bukti lengkung, melainkan penyesuaian model. Soal teleskop: pemulihan lambung justru menunjukkan objek belum tentu sudah di bawah horizon geometris; menyebutnya mirage bisa jadi penjelasan tambahan yang menyelamatkan teori. Horizon yang tampak lurus pada berbagai ketinggian amatir juga lebih sederhana dijelaskan sebagai bidang datar; lengkung pada lensa lebar justru bisa berasal dari distorsi lensa, bukan Bumi."
+    },
+    {
+      "n": 5,
+      "side": "bulat",
+      "speaker": "Kubu Bumi Bulat",
+      "model": "dahono/deepseek-v4.1-flash",
+      "text": "Tudingan “model lentur” justru bisa diuji: lengkung Bumi bukan satu rumus yang disetel, tetapi prediksi yang saling independen—dip horizon, urutan hilangnya lambung, waktu terbang lintas kutub, geometri GPS/satelit, dan laser ranging. Model datar justru butuh lebih banyak penyesuaian untuk semuanya. Soal teleskop, pemulihan lambung memang bisa lewat refraksi/mirage; itu bukan penyelamat teori, karena citranya sering terdistorsi dan tetap disertai dip horizon terukur. Horizon amatir tampak lurus wajar: pada ketinggian 1 km, dip hanya sekitar 1°, dan lensa lebar bisa dikalibrasi. Jadi ini konsistensi lintas pengukuran, bukan asumsi."
+    },
+    {
+      "n": 6,
+      "side": "datar",
+      "speaker": "Kubu Bumi Datar",
+      "model": "dahono/kimi-k2.8",
+      "text": "Soal “prediksi independen”, saya justru melihat semuanya ditafsirkan lewat model yang sama: dip, refraksi, geometri satelit, dan laser ranging tidak berdiri sendiri, tetapi saling dikalibrasi. Dip sekitar 1° pada ketinggian 1 km terlalu kecil untuk memisahkan lengkung dari distorsi lensa dan refraksi. Urutan hilangnya lambung juga sensitif pada gelombang dan jarak yang sering ditaksir, bukan diukur langsung. Jadi konsistensi itu bisa muncul karena parameter model disesuaikan bersama, bukan karena bidang datar mustahil. Pertanyaan saya: adakah satu pengukuran bebas model yang benar-benar membedakan keduanya tanpa mengandaikan kelengkungan lebih dulu?"
+    },
+    {
+      "n": 7,
+      "side": "bulat",
+      "speaker": "Kubu Bumi Bulat",
+      "model": "dahono/deepseek-v4.1-flash",
+      "text": "Pertanyaan Anda adil. Jujurnya, tak ada pengukuran yang sepenuhnya bebas model—itu sifat semua sains. Yang membedakan adalah parameter dibekukan sebelum data, bukan disetel per kasus. Contoh: laser ranging ke reflektor Apollo memakai waktu tempuh pulang-pergi dan kecepatan cahaya; model bulat dengan rotasi Bumi, gravitasi, dan relativitas memprediksi nilainya. Model datar harus menambah koreksi baru. GPS juga: empat pseudorange memberi posisi 3D konsisten lintas benua; jam satelit justru perlu koreksi relativistik. Jadi bukan satu foto, tapi prediksi berparameter tetap yang lulus berulang."
+    },
+    {
+      "n": 8,
+      "side": "datar",
+      "speaker": "Kubu Bumi Datar",
+      "model": "dahono/kimi-k2.8",
+      "text": "Saya terima bahwa tak ada pengukuran bebas model, dan parameter yang dibekukan lebih baik daripada disetel per kasus. Tapi itu belum menjawab inti: laser ranging mengukur waktu tempuh, bukan kelengkungan; jarak dan lintasannya dihitung lewat asumsi geometri. GPS yang konsisten lintas benua memang mengesankan, tetapi konsistensi itu juga buah kalibrasi model, termasuk koreksi relativistik. Prediksi berulang menguji koherensi internal, bukan membuktikan bola secara langsung. Karena itu pertanyaan saya tetap: di mana pengukuran langsung lengkung permukaan air pada skala besar yang tidak mengandaikan model bulat? Tanpa itu, “prediksi independen” masih tafsir, bukan bukti netral."
+    },
+    {
+      "n": 9,
+      "side": "bulat",
+      "speaker": "Kubu Bumi Bulat",
+      "model": "dahono/deepseek-v4.1-flash",
+      "text": "Poin Anda adil: laser ranging mengukur waktu, dan semua data mengandung model. Tetapi “pengukuran langsung lengkung air” ada: pengamatan serentak altitud bintang/zenit dari dua ujung danau yang jaraknya diukur independen. Pada Bumi datar selisih sudutnya nol; pada bola, sekitar jarak/R—10 km memberi ~0,09°. Ini mengukur kelengkungan permukaan air tanpa memasukkan radius 6371 km sebagai input. Refraksi memang harus dibahas, karena itu pengamatan dilakukan timbal-balik dan pada waktu berbeda. Hasilnya bisa gagal, jadi bukan tafsir tunggal. Pola kapal, dip, dan GPS lalu menjadi uji silang, bukan sumber kebenaran tunggal."
+    },
+    {
+      "n": 10,
+      "side": "datar",
+      "speaker": "Kubu Bumi Datar",
+      "model": "dahono/kimi-k2.8",
+      "text": "Soal pengamatan zenit serentak: selisih **0,09°** untuk 10 km memang sangat kecil, seorde dengan ketelitian alat, getaran, dan refraksi. Pengamatan timbal-balik tidak otomatis meniadakan refraksi karena atmosfer di dua ujung dan pada waktu berbeda tidak simetris; variabelnya justru bertambah. Acuan zenit juga bergantung pada vertikal lokal, bukan pembanding yang sepenuhnya bebas. Karena itu hasil nol maupun 0,09° sama-sama bisa ditafsirkan, dan kegagalan uji malah melemahkan klaim bahwa ini bukti langsung. Uji silang kapal, dip, dan GPS tetap berpijak pada model yang sama, bukan konfirmasi independen."
+    },
+    {
+      "n": 11,
+      "side": "bulat",
+      "speaker": "Kubu Bumi Bulat",
+      "model": "dahono/deepseek-v4.1-flash",
+      "text": "Adil—0,09° memang tidak bisa berdiri sebagai bukti tunggal; ia seordo noise dan refraksi. Justru karena itu saya tidak menjadikannya klaim presisi, melainkan prediksi kualitatif: tanda dan besarnya selaras lengkung, dan pada Bumi datar tak ada alasan sistematis muncul nilai itu. Soal uji silang “berpijak model sama”: benar tak ada independensi sempurna, tetapi jaringan dip, horizon, lintas kutub, dan GPS tetap bisa gagal bersama jika model salah; refraksi juga diukur, bukan variabel bebas yang bisa menyelamatkan apa pun. Jadi buktinya bukan satu eksperimen, melainkan konsistensi lintas skala yang falsifiable."
+    },
+    {
+      "n": 12,
+      "side": "datar",
+      "speaker": "Kubu Bumi Datar",
+      "model": "dahono/kimi-k2.8",
+      "text": "Saya setuju konsistensi lintas skala penting, tetapi konsistensi bukan independensi. Dip, horizon, GPS, dan laser ranging tetap berbagi asumsi geometri serta jalur kalibrasi; jika asumsi inti keliru, semuanya bisa menyimpang searah tanpa saling membantah. Refraksi yang “diukur” juga hanya sampel lokal, lalu dipakai sebagai koreksi dalam model—bukan jaminan bahwa variasi sepanjang lintasan sudah habis. Prediksi kualitatif “tanda dan besaran selaras lengkung” terlalu lentur: gradien atmosfer sistematis bisa memberi tanda serupa."
+    }
+  ],
+  "models": {
+    "bulat": "dahono/deepseek-v4.1-flash",
+    "datar": "dahono/kimi-k2.8"
+  },
+  "generated_by": "github-actions",
+  "note": "Kedua kubu diperankan AI untuk hiburan/edukasi."
+}
