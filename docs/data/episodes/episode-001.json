@@ -1,0 +1,22 @@
+{
+  "id": "episode-001",
+  "title": "Debat #1: Foto Bumi dari luar angkasa dan bentuk planet yang terlihat",
+  "topic": "Foto Bumi dari luar angkasa dan bentuk planet yang terlihat",
+  "status": "partial",
+  "turns_per_side": 6,
+  "turns": [
+    {
+      "n": 1,
+      "side": "bulat",
+      "speaker": "Kubu Bumi Bulat",
+      "model": "dahono/deepseek-v4.1-flash-netra",
+      "text": "Terima kasih. Saya mulai dari bukti visual paling langsung: foto Bumi dari luar angkasa. Apollo 17, DSCOVR, ISS"
+    }
+  ],
+  "models": {
+    "bulat": "dahono/deepseek-v4.1-flash-netra",
+    "datar": "dahono/qwen3.8-uncensored"
+  },
+  "generated_by": "github-actions",
+  "note": "Kedua kubu diperankan AI untuk hiburan/edukasi."
+}

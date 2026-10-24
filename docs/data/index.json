@@ -1,1 +1,23 @@
-{"episodes":[{"file":"episodes/episode-000-contoh.json","id":"episode-000-contoh","status":"sample","title":"Debat #0 (CONTOH): Foto Bumi dari luar angkasa","topic":"Foto Bumi dari luar angkasa dan bentuk planet yang terlihat","turns":12}],"latest_episode_id":"episode-000-contoh","updated_at":"2026-10-24T00:00:00Z","version":1}
+{
+  "episodes": [
+    {
+      "file": "episodes/episode-000-contoh.json",
+      "id": "episode-000-contoh",
+      "status": "sample",
+      "title": "Debat #0 (CONTOH): Foto Bumi dari luar angkasa",
+      "topic": "Foto Bumi dari luar angkasa dan bentuk planet yang terlihat",
+      "turns": 12
+    },
+    {
+      "id": "episode-001",
+      "title": "Debat #1: Foto Bumi dari luar angkasa dan bentuk planet yang terlihat",
+      "topic": "Foto Bumi dari luar angkasa dan bentuk planet yang terlihat",
+      "status": "partial",
+      "turns": 1,
+      "file": "episodes/episode-001.json"
+    }
+  ],
+  "latest_episode_id": "episode-001",
+  "updated_at": "2026-10-24T15:11:02Z",
+  "version": 1
+}
