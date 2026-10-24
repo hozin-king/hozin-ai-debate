@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Debat AI: Bumi Bulat vs Bumi Datar</title>
+<meta name="description" content="Dua kubu AI berdebat bergiliran ketat: Bumi Bulat vs Bumi Datar. History tersimpan, bisa dilihat dari awal.">
+<style>
+  :root { --bulat:#1d6fd1; --datar:#d97a16; --bg:#0f1115; --card:#1a1e26; --txt:#eef1f5; --mut:#9aa5b1; }
+  * { box-sizing:border-box; }
+  body { margin:0; font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif; background:var(--bg); color:var(--txt); }
+  header { padding:20px 16px 8px; max-width:760px; margin:0 auto; }
+  h1 { font-size:22px; margin:0 0 6px; }
+  .sub { color:var(--mut); font-size:14px; line-height:1.5; }
+  .banner { max-width:760px; margin:12px auto; padding:12px 16px; border-radius:10px; background:#3a2a00; border:1px solid #8a6a00; font-size:14px; line-height:1.5; }
+  .banner.live { background:#0e2f16; border-color:#2e7d32; }
+  main { max-width:760px; margin:0 auto; padding:8px 16px 40px; }
+  .meta { color:var(--mut); font-size:13px; margin:10px 0; }
+  .turn { display:flex; margin:12px 0; }
+  .turn.bulat { justify-content:flex-start; }
+  .turn.datar { justify-content:flex-end; }
+  .bubble { max-width:85%; padding:10px 13px; border-radius:14px; line-height:1.55; font-size:15px; }
+  .bulat .bubble { background:#173a5e; border-bottom-left-radius:4px; }
+  .datar .bubble { background:#4a2c0e; border-bottom-right-radius:4px; }
+  .who { font-size:12px; font-weight:700; margin-bottom:4px; }
+  .bulat .who { color:#7fb2ff; } .datar .who { color:#ffb066; }
+  .n { font-size:12px; color:var(--mut); margin-top:6px; }
+  button { background:#2a3342; color:var(--txt); border:1px solid #3d4757; border-radius:10px; padding:10px 16px; font-size:15px; cursor:pointer; }
+  button:hover { background:#354052; }
+  select { background:#2a3342; color:var(--txt); border:1px solid #3d4757; border-radius:10px; padding:9px 12px; font-size:15px; max-width:100%; }
+  .row { display:flex; gap:10px; flex-wrap:wrap; align-items:center; margin:14px 0; }
+  .err { color:#ff8a80; font-size:14px; line-height:1.5; }
+  footer { max-width:760px; margin:0 auto; padding:0 16px 30px; color:var(--mut); font-size:13px; line-height:1.6; }
+  a { color:#7fb2ff; }
+</style>
+</head>
+<body>
+<header>
+  <h1>🌍 Debat AI: Bumi Bulat <span style="color:var(--mut)">vs</span> 🗺️ Bumi Datar</h1>
+  <p class="sub">Dua kubu AI berdebat dengan <b>giliran ketat</b>: satu kubu harus selesai penuh dulu, baru kubu lawan menjawab — tidak ada yang memotong. Episode baru digerakkan otomatis oleh GitHub Actions. Kedua kubu diperankan AI untuk hiburan dan edukasi; argumen kubu Datar adalah peran debat, bukan klaim faktual halaman ini.</p>
+</header>
+<div id="banner" class="banner" hidden></div>
+<main>
+  <div class="row">
+    <label for="epSel" style="font-size:14px;color:var(--mut)">Episode:</label>
+    <select id="epSel"></select>
+  </div>
+  <div id="meta" class="meta"></div>
+  <div id="turns"></div>
+  <div class="row"><button id="moreBtn" hidden>Muat giliran lebih lama</button></div>
+  <div id="err" class="err"></div>
+</main>
+<footer>
+  Data: <code>data/index.json</code> + <code>data/episodes/&lt;id&gt;.json</code> di repo ini.
+  Preview untuk aplikasi: baca <code>data/index.json</code> (episode terbaru, status, jumlah giliran) lalu
+  <code>data/episodes/&lt;id&gt;.json</code> untuk giliran terakhir sebagai cuplikan.
+</footer>
+<script>
+(function () {
+  var PAGE = 30; // tampilkan 30 giliran terbaru dulu (anti-lag)
+  var shown = PAGE, current = null;
+  var $ = function (id) { return document.getElementById(id); };
+  function esc(s) { return String(s).replace(/[&<>"]/g, function (c) { return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]; }); }
+  function render() {
+    if (!current) return;
+    var banner = $('banner');
+    if (current.status === 'sample') {
+      banner.hidden = false; banner.className = 'banner';
+      banner.textContent = 'EPISODE CONTOH — ditulis sebagai placeholder format, BUKAN hasil debat live. Episode live pertama akan menggantikan posisi teratas begitu wiring secret selesai.';
+    } else if (current.status === 'partial') {
+      banner.hidden = false; banner.className = 'banner';
+      banner.textContent = 'Episode ini berhenti di tengah jalan (API gagal di tengah generasi). Giliran yang sudah ada tetap ditampilkan apa adanya — tidak ada giliran karangan.';
+    } else {
+      banner.hidden = false; banner.className = 'banner live';
+      banner.textContent = 'EPISODE LIVE — digerakkan GitHub Actions dari API Dahono.';
+    }
+    $('meta').textContent = current.title + ' • ' + current.turns.length + ' giliran'
+      + (current.models ? ' • model Bulat: ' + current.models.bulat + ' • model Datar: ' + current.models.datar : '');
+    // Urutan tampil: terbaru dulu, tapi dalam tiap halaman urutan kronologis dipertahankan.
+    var turns = current.turns.slice();
+    var total = turns.length;
+    var start = Math.max(0, total - shown);
+    var slice = turns.slice(start);
+    $('turns').innerHTML = slice.map(function (t) {
+      return '<div class="turn ' + esc(t.side) + '"><div class="bubble"><div class="who">'
+        + (t.side === 'bulat' ? '🌍 Kubu Bumi Bulat' : '🗺️ Kubu Bumi Datar')
+        + '</div>' + esc(t.text) + '<div class="n">Giliran ' + t.n + ' dari ' + total + '</div></div></div>';
+    }).join('');
+    $('moreBtn').hidden = start <= 0;
+    $('moreBtn').onclick = function () { shown += PAGE; render(); };
+  }
+  function loadEpisode(id) {
+    fetch('data/episodes/' + id + '.json', { cache: 'no-store' })
+      .then(function (r) { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
+      .then(function (ep) { shown = PAGE; current = ep; render(); })
+      .catch(function (e) { $('err').textContent = 'Gagal memuat episode: ' + e.message; });
+  }
+  fetch('data/index.json', { cache: 'no-store' })
+    .then(function (r) { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
+    .then(function (idx) {
+      var eps = (idx.episodes || []).slice().sort(function (a, b) { return a.id < b.id ? 1 : -1; });
+      var sel = $('epSel');
+      sel.innerHTML = eps.map(function (e) {
+        return '<option value="' + esc(e.id) + '">' + esc(e.title)
+          + ' (' + e.turns + ' giliran, ' + esc(e.status) + ')</option>';
+      }).join('');
+      var params = new URLSearchParams(location.search);
+      var wanted = params.get('episode') || idx.latest_episode_id;
+      if (eps.some(function (e) { return e.id === wanted; })) sel.value = wanted;
+      sel.onchange = function () { loadEpisode(sel.value); };
+      loadEpisode(sel.value);
+    })
+    .catch(function (e) { $('err').textContent = 'Gagal memuat indeks debat: ' + e.message; });
+})();
+</script>
+</body>
+</html>

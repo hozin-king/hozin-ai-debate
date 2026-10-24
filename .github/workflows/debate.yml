@@ -1,0 +1,85 @@
+name: Debat AI (generate episode)
+
+# Satu run = satu episode penuh (12 giliran: 6 per kubu), giliran KETAT
+# dan berurutan di dalam engine. Jadwal: tiap hari 07:00 WIB (00:00 UTC).
+# Repo PUBLIK sehingga Actions gratis (kuota repo privat habis s/d 1 Nov 2026).
+# Secret TIDAK PERNAH dicetak: engine hanya melaporkan ada/tidak ada.
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "generate = buat episode baru; check = hanya validasi wiring (tanpa generate)"
+        required: false
+        default: "generate"
+        type: choice
+        options:
+          - generate
+          - check
+
+permissions:
+  contents: write
+
+concurrency:
+  group: debate-generate
+  cancel-in-progress: false
+
+jobs:
+  debate:
+    runs-on: ubuntu-latest
+    env:
+      MODEL_BULAT: ${{ vars.MODEL_BULAT }}
+      MODEL_DATAR: ${{ vars.MODEL_DATAR }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Validasi wiring (mode check)
+        if: inputs.mode == 'check'
+        env:
+          DAHONO_API_KEY: ${{ secrets.DAHONO_API_KEY }}
+          DAHONO_API_KEY_2: ${{ secrets.DAHONO_API_KEY_2 }}
+        run: |
+          python3 - <<'EOF'
+          import os, sys, urllib.request
+          keys = [os.environ.get("DAHONO_API_KEY", ""), os.environ.get("DAHONO_API_KEY_2", "")]
+          print("DAHONO_API_KEY ada:", bool(keys[0]))
+          print("DAHONO_API_KEY_2 ada:", bool(keys[1]))
+          if not all(keys):
+              print("WIRING BELUM LENGKAP — isi kedua secret di Settings > Secrets and variables > Actions.")
+              sys.exit(0)
+          # Hanya cek keterjangkauan endpoint (tanpa mencetak apa pun dari respons auth).
+          req = urllib.request.Request("https://gateway.dahono.com/v1/models", method="GET")
+          req.add_header("Authorization", "Bearer " + keys[0])
+          try:
+              with urllib.request.urlopen(req, timeout=30) as r:
+                  print("GET /v1/models status:", r.status, "— wiring OK.")
+          except Exception as e:
+              print("GET /v1/models gagal:", type(e).__name__, "— cek secret / kuota Dahono.")
+              sys.exit(1)
+          EOF
+
+      - name: Generate episode
+        if: inputs.mode != 'check'
+        env:
+          DAHONO_API_KEY: ${{ secrets.DAHONO_API_KEY }}
+          DAHONO_API_KEY_2: ${{ secrets.DAHONO_API_KEY_2 }}
+        run: python3 engine/generate.py
+
+      - name: Commit hasil (bila ada perubahan data)
+        if: inputs.mode != 'check'
+        run: |
+          git config user.name "hozin-debate-bot"
+          git config user.email "hozin-debate-bot@users.noreply.github.com"
+          git add docs/data
+          git diff --cached --quiet && echo "Tidak ada episode baru (secret belum tersedia / tidak ada perubahan)." || {
+            git commit -m "Debat AI: episode baru (GitHub Actions)"
+            git push
+          }
