@@ -1,0 +1,51 @@
+name: Debat AI (Telegram)
+
+# Satu episode terbaru = satu postingan Telegram, 10 menit setelah job
+# generate (00:00 UTC). Jadwal: tiap hari 07:10 WIB (00:10 UTC).
+# Aturan posting (lihat engine/telegram_post.py):
+# - hanya episode berstatus live atau partial; episode sample SELALU dilewati;
+# - anti-dobel via docs/data/telegram_posted.json (id yang sudah diposting
+#   dilewati; file belum ada = dianggap kosong);
+# - bila secret TELEGRAM_BOT_TOKEN / TELEGRAM_CHAT_ID belum tersedia, job
+#   keluar bersih (exit 0) dengan pesan skip — CI tidak merah karenanya.
+# Secret TIDAK PERNAH dicetak: log hanya menampilkan ada/tidak ada.
+
+on:
+  schedule:
+    - cron: "10 0 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: debate-telegram
+  cancel-in-progress: false
+
+jobs:
+  telegram:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Posting episode terbaru ke Telegram
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python3 engine/telegram_post.py
+
+      - name: Commit telegram_posted.json (bila ada episode baru diposting)
+        run: |
+          git config user.name "hozin-debate-bot"
+          git config user.email "hozin-debate-bot@users.noreply.github.com"
+          git add docs/data/telegram_posted.json
+          git diff --cached --quiet && echo "Tidak ada postingan baru (skip / sudah diposting / secret belum tersedia)." || {
+            git commit -m "Debat AI: catat episode yang sudah diposting ke Telegram"
+            git push
+          }
