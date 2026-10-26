@@ -1,0 +1,99 @@
+{
+  "id": "episode-005",
+  "title": "Debat #5: Satelit, GPS, dan stasiun luar angkasa",
+  "topic": "Satelit, GPS, dan stasiun luar angkasa",
+  "status": "live",
+  "turns_per_side": 6,
+  "turns": [
+    {
+      "n": 1,
+      "side": "bulat",
+      "speaker": "Kubu Bumi Bulat",
+      "model": "dahono/deepseek-v4.1-flash",
+      "text": "Terima kasih. Saya mulai dari bukti yang bisa diverifikasi siapa pun: GPS di ponsel bekerja karena puluhan satelit mengorbit Bumi dan mengirim waktu sangat presisi; penerima menghitung posisi dari selisih waktu sinyal. Agar akurat, model orbit dan bentuk Bumi—bulat pepat—harus dipakai, termasuk koreksi relativitas. Stasiun Luar Angkasa Internasional juga rutin terlihat melintas, dikirim pasokan, dan videonya disiarkan langsung. Foto Bumi dari orbit menunjukkan horizon melengkung. Ini bukan klaim abstrak, melainkan teknologi harian. Saya siap mendengar argumen sebaliknya."
+    },
+    {
+      "n": 2,
+      "side": "datar",
+      "speaker": "Kubu Bumi Datar",
+      "model": "dahono/kimi-k2.8",
+      "text": "Terima kasih. GPS presisi membuktikan jaringan waktu dan koreksi sinyal, bukan otomatis orbit satelit. Sinkronisasi jam bisa dari stasiun darat, menara, atau pseudolit; koreksi relativitas pun bisa jadi kalibrasi sistem, bukan bukti bentuk Bumi. ISS yang melintas dan videonya bisa berupa rekaman komposit, CGI, atau balon stratosfer—pasokan rutin tidak serta-merta membuktikan orbit. Horizon melengkung? Pada ketinggian mata biasa lengkungan tak terlihat; lensa sudut lebar dan crop mudah membuat garis lurus tampak melengkung. Jadi semua itu masih bisa dijelaskan tanpa model bola. Saya menunggu bukti yang tak bisa direkayasa."
+    },
+    {
+      "n": 3,
+      "side": "bulat",
+      "speaker": "Kubu Bumi Bulat",
+      "model": "dahono/deepseek-v4.1-flash",
+      "text": "Soal GPS: pseudolit dan stasiun darat hanya menjangkau area lokal; di tengah laut atau gurun, penerima tetap mendapat sinyal dari banyak transmitter bergerak dengan Doppler dan geometri orbit yang konsisten. Koreksi relativitas bukan kalibrasi bebas—besarnya mengikuti kecepatan dan gravitasi orbit; tanpa model orbit, posisi melenceng. Untuk ISS, bukan cuma video: pengamat independen di lokasi berbeda mencatat lintasan, waktu, dan parallax yang sama; radio amatir mendengar telemetri; peluncuran dan kapsul kembali terlacak. Horizon di ketinggian 400 km melengkung jelas, dan rekaman balon bisa dikalibrasi dari bintang serta garis lurus."
+    },
+    {
+      "n": 4,
+      "side": "datar",
+      "speaker": "Kubu Bumi Datar",
+      "model": "dahono/kimi-k2.8",
+      "text": "Saya akui pseudolit lokal, tetapi laut dan gurun bisa dilayani platform udara—balon, drone, kapal—yang memang bergerak; Doppler dan geometri konsisten bisa dirancang. GPS membuktikan sinkronisasi waktu, bukan orbit. Koreksi relativitas mengikuti model orbit, tetapi tetap kalibrasi sistem: jam jaringan disetel dengan rumus sama, hasil konsisten tanpa bola. Pengamat ISS melacak objek terang ketinggian tinggi; telemetri amatir bisa diteruskan. Parallax dan horizon 400 km bergantung lensa, ketinggian, serta asumsi bola; kalibrasi bintang pada rekaman balon juga mengasumsikan langit bola. Jadi belum memisahkan model."
+    },
+    {
+      "n": 5,
+      "side": "bulat",
+      "speaker": "Kubu Bumi Bulat",
+      "model": "dahono/deepseek-v4.1-flash",
+      "text": "Anda benar platform udara bisa memberi sinyal lokal, tetapi GPS bekerja global 24 jam dengan puluhan pemancar yang ephemerisnya diperbarui; penerima menyelesaikan empat variabel (x,y,z,waktu) dan sinyalnya memuat data orbit. Balon/drone tak menjaga geometri dan jangkauan serentak di seluruh Pasifik atau Sahara. ISS bukan sekadar titik terang: lintasannya diprediksi dari elemen orbit, Doppler radionya cocok, telemetri amatir bisa diverifikasi. Horizon 400 km dan parallax tak bergantung lensa karena posisi relatif antarobjek; lensa hanya memetakan. Bintang adalah referensi inersia, bukan asumsi bola. Model bulat memberi angka prediktif yang cocok, bukan sekadar kalibrasi."
+    },
+    {
+      "n": 6,
+      "side": "datar",
+      "speaker": "Kubu Bumi Datar",
+      "model": "dahono/kimi-k2.8",
+      "text": "Ephemeris yang dikirim penerima tetap data yang bisa disusun dan diperbarui dari jaringan darat; empat variabel hanya menunjukkan sistem waktu-posisi konsisten, bukan bahwa sumbernya mengorbit. Untuk Pasifik dan Sahara, platform udara berjajar memang menuntut perawatan, tetapi itu soal biaya, bukan bukti orbit. Lintasan ISS yang dapat diprediksi juga bisa berasal dari katalog gerak objek tinggi; Doppler cocok dengan sumber bergerak, dan telemetri amatir tetap sinyal yang bisa diteruskan. Soal horizon 400 km: parallax memang tidak diciptakan lensa, tetapi jarak dan posisi relatif objek justru dihitung dari model bola—jadi lingkarannya sudah diasumsikan."
+    },
+    {
+      "n": 7,
+      "side": "bulat",
+      "speaker": "Kubu Bumi Bulat",
+      "model": "dahono/deepseek-v4.1-flash",
+      "text": "Ephemeris bukan data bebas: penerima memecahkan pseudorange menjadi posisi dan waktu, lalu solusinya harus konsisten dengan Doppler dan geometri langit global 24 jam—itu petunjuk sumber mengorbit, bukan katalog darat. Platform udara di Pasifik/Sahara bukan sekadar soal biaya: perlu puluhan pemancar sinkron, daya, jangkauan, dan geometri mirip orbit; tak ada bukti jaringan sebesar itu. Lintasan ISS dan telemetri amatir diverifikasi banyak pengamat lewat arah, waktu, Doppler, dan kontak radio—cocok dengan orbit. Horizon 400 km juga bukan asumsi: sudut depresi dan kelengkungan cakrawala diukur, bukan lingkaran yang ditempelkan dari model bola."
+    },
+    {
+      "n": 8,
+      "side": "datar",
+      "speaker": "Kubu Bumi Datar",
+      "model": "dahono/kimi-k2.8",
+      "text": "Konsistensi solusi dengan Doppler dan geometri langit tidak otomatis membuktikan sumbernya mengorbit. Jaringan pemancar darat maupun udara yang sinkron dan diperbarui dapat menghasilkan pseudorange, Doppler, serta almanak yang saling cocok; penerima hanya melihat sinyal yang tiba, bukan asal fisiknya. Pengamatan amatir terhadap ISS pun bisa konsisten bila ada pemancar bergerak yang mengikuti jalur terencana, termasuk repeater di ketinggian. Soal horizon 400 km, sudut depresi memang terukur, tetapi nilainya kecil dan sangat peka terhadap refraksi, kalibrasi, serta asumsi ketinggian; itu belum memisahkan cakrawala datar dari lengkungan yang sangat landai."
+    },
+    {
+      "n": 9,
+      "side": "bulat",
+      "speaker": "Kubu Bumi Bulat",
+      "model": "dahono/deepseek-v4.1-flash",
+      "text": "Saya setuju konsistensi solusi saja bukan bukti tunggal. Tetapi yang membedakan bukan isi almanak, melainkan fisika sinyal: delay ionosfer/atmosfer berubah menurut elevasi dan frekuensi, Doppler mengikuti vektor kecepatan sumber, dan satelit terbit/terbenam dengan mask elevasi yang konsisten di lintang berbeda. Jaringan darat/udara global 24 jam yang meniru semua efek itu justru jauh lebih rumit daripada orbit. Untuk horizon, refraksi memang koreksi, tetapi urutan hilangnya lambung kapal sebelum tiang pada beberapa jarak dan ketinggian pengamat konsisten dengan lengkungan; itu bukan bergantung pada satu sudut depresi kecil."
+    },
+    {
+      "n": 10,
+      "side": "datar",
+      "speaker": "Kubu Bumi Datar",
+      "model": "dahono/kimi-k2.8",
+      "text": "Efek ionosfer dan Doppler memang nyata, tetapi keduanya fungsi lingkungan dan gerak relatif, bukan otomatis tanda orbit: delay bisa dimodelkan dari profil ionosfer, Doppler dari vektor kecepatan platform apa pun. Mask elevasi juga bisa dijadwalkan dan diperbarui. Jadi kerumitan jaringan darat/udara lebih soal rekayasa, bukan bukti fisik. Untuk horizon, urutan hilangnya lambung sebelum tiang memang menarik, tetapi ia bergantung pada tinggi pengamat, gelombang, dan refraksi; bila refraksi menjadi parameter bebas, urutan itu bukan uji tunggal yang memisahkan model. Saya menunggu bukti yang mengunci refraksi secara independen, bukan kecocokan setelah koreksi."
+    },
+    {
+      "n": 11,
+      "side": "bulat",
+      "speaker": "Kubu Bumi Bulat",
+      "model": "dahono/deepseek-v4.1-flash",
+      "text": "Setuju delay/Doppler bisa dimodelkan. Tapi profil ionosfer bukan parameter bebas: TEC diukur independen lewat ionosonda dan GNSS, lalu delay harus konsisten dengan elevasi/frekuensi sepanjang cakrawala 24 jam; jaringan darat/udara global di Pasifik tetap menuntut infrastruktur raksasa yang tak terlihat. Soal horizon, refraksi juga diukur independen via radiosonde, refraksi bintang, dan profil tekanan-suhu. Model standar itu memprediksi urutan lambung-tiang untuk tinggi pengamat tertentu, bukan dicocokkan setelahnya. Jadi beberapa pengukuran independen bertemu pada geometri bulat."
+    },
+    {
+      "n": 12,
+      "side": "datar",
+      "speaker": "Kubu Bumi Datar",
+      "model": "dahono/kimi-k2.8",
+      "text": "Anda menyebut TEC dan refraksi sebagai pengukuran independen, tetapi ionosonda hanya memberi kerapatan elektron lokal, sedangkan GNSS menurunkan TEC lewat model geometri dan bias penerima—keduanya sudah memuat asumsi bola. Radiosonde dan refraksi bintang juga hanya menghasilkan indeks bias lokal; urutan lambung-tiang tetap bergantung pada tinggi pengamat dan profil refraksi yang bisa disetel. Jadi beberapa “pengukuran independen” itu bertemu karena berbagi kerangka model yang sama, bukan karena kelengkungan pernah terlihat langsung. Konsistensi model tetap bukan bukti horizon melengkung."
+    }
+  ],
+  "models": {
+    "bulat": "dahono/deepseek-v4.1-flash",
+    "datar": "dahono/kimi-k2.8"
+  },
+  "generated_by": "github-actions",
+  "note": "Kedua kubu diperankan AI untuk hiburan/edukasi."
+}
