@@ -1,0 +1,99 @@
+{
+  "id": "episode-006",
+  "title": "Debat #6: Air laut yang selalu datar dan permukaan air",
+  "topic": "Air laut yang selalu datar dan permukaan air",
+  "status": "live",
+  "turns_per_side": 6,
+  "turns": [
+    {
+      "n": 1,
+      "side": "datar",
+      "speaker": "Kubu Bumi Datar",
+      "model": "dahono/kimi-k2.8",
+      "text": "Terima kasih. Poin utama saya sederhana: air selalu mencari permukaan yang datar dan tenang. Lautan yang kita lihat luas justru memperlihatkan horizon lurus, bukan melengkung ke bawah seperti bola. Jika Bumi benar-benar bola berukuran besar, lengkungan itu seharusnya tampak pada garis cakrawala laut, apalagi dari ketinggian. Kenyataannya, pengamat melihat garis datar yang konsisten. Air juga tidak bisa “menempel” mengikuti lengkungan tanpa wadah yang jelas; permukaannya tetap rata. Karena itu, saya menilai klaim kelengkungan laut lebih banyak berasal dari interpretasi dan citra rekayasa daripada pengamatan langsung. Saya siap mendengar argumen lawan."
+    },
+    {
+      "n": 2,
+      "side": "bulat",
+      "speaker": "Kubu Bumi Bulat",
+      "model": "dahono/deepseek-v4.1-flash",
+      "text": "Terima kasih. “Air mencari datar” benar, tetapi dalam fisika “datar” berarti ekuipotensial gravitasi, bukan bidang rata; pada skala Bumi permukaan itu melengkung mengikuti geoid. Horizon tampak lurus karena radius Bumi ~6.371 km, kelengkungan kecil di ketinggian mata tetapi terukur: kapal hilang lambung dulu, cakrawala naik seiring ketinggian, dan citra dari balon/ISS memperlihatkannya. Air tak butuh wadah karena gravitasi menjaga laut; Bulan pun mengorbit, bukan menempel. Data satelit, GPS, penerbangan lintas kutub, dan bayangan gerhana bulan yang bulat saling konsisten. Jadi bukan sekadar interpretasi."
+    },
+    {
+      "n": 3,
+      "side": "datar",
+      "speaker": "Kubu Bumi Datar",
+      "model": "dahono/kimi-k2.8",
+      "text": "Terima kasih. Anda menyebut “datar” sebagai ekuipotensial gravitasi, tetapi itu justru sudah memakai asumsi Bumi bulat; definisinya tidak membuktikan kelengkungan. Yang bisa diamati langsung: air tenang di kanal, danau, dan rawa tetap rata sejauh penglihatan, sementara horizon selalu lurus dan sejajar mata, bukan melengkung turun di kiri-kanan. Kapal yang “hilang lambung dulu” bisa dijelaskan oleh batas resolusi, perspektif, dan refraksi; citra balon atau ISS rentan lensa sudut lebar dan penyuntingan. GPS serta penerbangan memang konsisten dengan model navigasi yang dipakai, tetapi konsistensi bukan bukti langsung bentuk Bumi."
+    },
+    {
+      "n": 4,
+      "side": "bulat",
+      "speaker": "Kubu Bumi Bulat",
+      "model": "dahono/deepseek-v4.1-flash",
+      "text": "Poin Anda benar: “ekuipotensial” adalah model, bukan bukti tunggal. Namun pengamatan lokal tak membedakan bidang dan bola karena lengkungan 1 km cuma ~8 cm; kanal/danau memang tampak rata. Horizon lurus wajar pada mata rendah; di ketinggian 10 km ia melengkung dengan lensa normal. Kapal hilang lambung dulu bukan sekadar resolusi: refraksi biasanya mengangkat bayangan, dan di jarak beberapa km tiang masih terlihat. Foto bisa diperdebatkan, tetapi gerhana bulan memberi bayangan bulat, langit utara/selatan berbeda, dan GPS trilaterasi satelit global konsisten. Konsistensi bukan bukti mutlak, tetapi gabungan bukti independen lebih menjelaskan daripada model datar."
+    },
+    {
+      "n": 5,
+      "side": "datar",
+      "speaker": "Kubu Bumi Datar",
+      "model": "dahono/kimi-k2.8",
+      "text": "Poin Anda justru menegaskan keberatan saya: 8 cm/km hanya relevan bila model bola sudah dipakai; air tenang yang teramati tetap level. Lengkungan horizon di 10 km bisa berasal dari lensa dan distorsi, jadi bukan bukti bebas. Kapal hilang lambung dulu juga dipengaruhi refraksi; kadang tiang kembali tampak dengan teleskop. Bayangan bulat saat gerhana tidak otomatis membuktikan bola raksasa. Langit utara/selatan berbeda bisa dijelaskan sebagai bidang langit lokal. GPS konsisten, tetapi trilaterasi darat/udara juga bisa konsisten tanpa satelit. Gabungan bukti Anda tetap bersandar pada asumsi model, bukan pengamatan langsung yang membedakan bidang dan bola."
+    },
+    {
+      "n": 6,
+      "side": "bulat",
+      "speaker": "Kubu Bumi Bulat",
+      "model": "dahono/deepseek-v4.1-flash",
+      "text": "Poin “8 cm/km hanya relevan jika model bola” justru bisa diuji: geometri bola memprediksi pola kelengkungan yang berubah konsisten dengan jarak, bukan sekadar asumsi. Horizon 10 km memang terlalu pendek; bukti kuatnya adalah pengukuran simultan antarlokasi, geodesi, altitudo bintang, dan penerbangan lintas kutub. Refraksi nyata, tetapi terukur dan tidak menghapus pola hilangnya lambung di berbagai kondisi. Gerhana: bayangan bulat muncul dari geometri 3D Bumi-bulan-matahari, bukan klaim model. Langit utara/selatan berbeda kontinu menurut lintang, sulit dijelaskan sebagai bidang lokal."
+    },
+    {
+      "n": 7,
+      "side": "datar",
+      "speaker": "Kubu Bumi Datar",
+      "model": "dahono/kimi-k2.8",
+      "text": "Terima kasih. Prediksi 8 cm/km milik model bola, jadi tak bisa jadi bukti netral; yang teramati di 10 km tetap horizon lurus. Pengukuran simultan, geodesi, dan altitudo bintang bergantung pada kerangka bola—konsisten karena modelnya dipakai, bukan karena kelengkungan terlihat. Penerbangan lintas kutub bisa dijelaskan rute yang disepakati. Refraksi terukur, tetapi variasi atmosfer cukup mengaburkan pola lambung hilang. Bayangan gerhana bulat bisa dihasilkan geometri cakram dan sumber cahaya. Langit utara-selatan berbeda karena pola lokal, bukan kelengkungan global."
+    },
+    {
+      "n": 8,
+      "side": "bulat",
+      "speaker": "Kubu Bumi Bulat",
+      "model": "dahono/deepseek-v4.1-flash",
+      "text": "Prediksi 8 cm/km bukan asumsi netral: ia konsekuensi radius dan bisa diuji lewat beda tinggi antar titik. Di 10 km lengkungan hanya 8 m, jadi horizon lurus tak memutuskan; perlu jarak/ketinggian lebih besar. Refraksi bervariasi, tetapi tak menjelaskan pola lambung hilang sistematis dari banyak arah. Gerhana: cakram+sumber cahaya memberi bayangan bulat hanya pada geometri khusus; pengamatan berbagai orientasi cocok dengan bola. Rute kutub bukan sekadar kesepakatan—waktu/bahan bakar konsisten dengan bola, sulit di peta datar. GPS memakai jam satelit dan geometri, lalu cocok dengan geodesi independen. Pola langit utara-selatan kontinu di sekitar kutub langit, bukan sekadar lokal."
+    },
+    {
+      "n": 9,
+      "side": "datar",
+      "speaker": "Kubu Bumi Datar",
+      "model": "dahono/kimi-k2.8",
+      "text": "Dengan hormat, beda tinggi 8 m di 10 km tetap bergantung pada referensi geodesi bola; pengukuran simultan pun bisa terpengaruh refraksi dan kalibrasi. Hilangnya lambung secara sistematis bisa dijelaskan lapisan atmosfer dan perspektif, bukan otomatis lengkungan. Bayangan gerhana bulat dapat dihasilkan cakram dekat, bukan hanya bola jauh. Rute kutub di peta datar azimuthal tetap konsisten dengan waktu dan bahan bakar; GPS dapat bekerja lewat jaringan darat serta jam lokal, dan kecocokan dengan geodesi tidak membuktikan bola. Pola langit sekitar kutub langit juga konsisten dengan bidang berputar. Semua ini masih model, bukan pengamatan netral."
+    },
+    {
+      "n": 10,
+      "side": "bulat",
+      "speaker": "Kubu Bumi Bulat",
+      "model": "dahono/deepseek-v4.1-flash",
+      "text": "Refraksi/kalibrasi memang harus dikoreksi, bukan diabaikan; setelah koreksi, pola lambung hilang bertahap dari bawah ke atas seiring jarak tetap sistematis—itu prediksi geometri bola, bukan efek atmosfer acak. Beda 8 m di 10 km kecil, jadi uji lengkungan perlu baseline panjang; bukan berarti geodesi bola jadi asumsi. Bayangan gerhana dari cakram dekat bisa bulat, tetapi ukuran, kecepatan, dan parallaksnya cocok dengan bola jauh. GPS di laut/kutub tetap butuh geometri satelit; jam lokal saja tak menentukan posisi. Model memang alat, tetapi banyak prediksi independen bertemu."
+    },
+    {
+      "n": 11,
+      "side": "datar",
+      "speaker": "Kubu Bumi Datar",
+      "model": "dahono/kimi-k2.8",
+      "text": "Soal lambung: setelah koreksi, pola sistematis memang bisa dihasilkan lapisan atmosfer berlapis plus perspektif; kuncinya, model koreksinya sendiri bertumpu pada asumsi bola, jadi belum uji netral. Baseline panjang hanya memperbesar ketergantungan pada referensi geodesi. Bayangan gerhana bulat dari cakram dekat tetap mungkin; parallaks baru cocok bila jarak Bulan sudah diasumsikan jauh. GPS di laut/kutub dapat dijelaskan jaringan waktu terestrial dan koreksi atmosfer; geometri satelit bukan satu-satunya penjelasan. Prediksi yang bertemu bisa berasal dari kerangka yang sama."
+    },
+    {
+      "n": 12,
+      "side": "bulat",
+      "speaker": "Kubu Bumi Bulat",
+      "model": "dahono/deepseek-v4.1-flash",
+      "text": "Poin Anda adil: koreksi refraksi memang tak netral jika berdiri sendiri. Karena itu uji bulat tak bergantung pada satu koreksi—triangulasi simultan dari dua lokasi, pengukuran dua arah/dua warna, dan data meteorologi memisahkan refraksi dari geometri. Untuk gerhana, jika Bulan dekat, parallaksnya mestinya besar dan mudah terukur; yang teramati kecil dan konsisten dengan jarak jauh. GPS juga bukan sekadar jam terestrial: posisi diperoleh trilaterasi ke satelit; koreksi atmosfer/clock memperbaiki, bukan mengganti geometri. Prediksi yang bertemu tetap harus lulus uji silang independen."
+    }
+  ],
+  "models": {
+    "bulat": "dahono/deepseek-v4.1-flash",
+    "datar": "dahono/kimi-k2.8"
+  },
+  "generated_by": "github-actions",
+  "note": "Kedua kubu diperankan AI untuk hiburan/edukasi."
+}

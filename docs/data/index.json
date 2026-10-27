@@ -47,9 +47,17 @@
       "status": "live",
       "turns": 12,
       "file": "episodes/episode-005.json"
+    },
+    {
+      "id": "episode-006",
+      "title": "Debat #6: Air laut yang selalu datar dan permukaan air",
+      "topic": "Air laut yang selalu datar dan permukaan air",
+      "status": "live",
+      "turns": 12,
+      "file": "episodes/episode-006.json"
     }
   ],
-  "latest_episode_id": "episode-005",
-  "updated_at": "2026-10-26T04:11:32Z",
+  "latest_episode_id": "episode-006",
+  "updated_at": "2026-10-27T04:32:28Z",
   "version": 1
 }
