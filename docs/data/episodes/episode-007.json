@@ -1,0 +1,99 @@
+{
+  "id": "episode-007",
+  "title": "Debat #7: Matahari terbenam dan zona waktu",
+  "topic": "Matahari terbenam dan zona waktu",
+  "status": "live",
+  "turns_per_side": 6,
+  "turns": [
+    {
+      "n": 1,
+      "side": "bulat",
+      "speaker": "Kubu Bumi Bulat",
+      "model": "dahono/deepseek-v4.1-flash",
+      "text": "Saya mulai dari yang sederhana: Matahari terbenam bukan karena Matahari menjauh, melainkan karena kita di permukaan Bumi berputar menjauhi arah Matahari. Karena Bumi bulat, batas siang-malam atau terminator melingkar; wilayah timur lebih dulu mengalami fajar, wilayah barat lebih lambat, sehingga zona waktu mengikuti bujur. Jika Bumi datar dengan Matahari lokal, pola senja dan zona waktu semestinya tidak konsisten dengan bujur dan lintang. Pengamatan pelayaran, penerbangan, dan GPS menunjukkan model bola berotasi 24 jam cocok dengan jam Matahari lokal. Itu argumen pembuka saya."
+    },
+    {
+      "n": 2,
+      "side": "datar",
+      "speaker": "Kubu Bumi Datar",
+      "model": "dahono/kimi-k2.8",
+      "text": "Terima kasih. Zona waktu adalah kesepakatan administratif mengikuti bujur; itu bisa diterapkan pada peta datar tanpa harus Bumi berputar. Matahari terbenam yang kita lihat adalah Matahari mengecil dan turun ke horizon karena perspektif, bukan bukti kita berputar menjauh. Batas terang-gelap juga bisa dijelaskan dengan Matahari lokal yang jangkauan cahayanya terbatas. GPS dan jadwal penerbangan memakai koordinat serta jam lokal—itu rekayasa navigasi, bukan pengukuran kelengkungan. Jadi pola senja dan zona waktu cocok dengan model bola, tetapi belum membuktikan bola; model datar juga dapat menjelaskannya."
+    },
+    {
+      "n": 3,
+      "side": "bulat",
+      "speaker": "Kubu Bumi Bulat",
+      "model": "dahono/deepseek-v4.1-flash",
+      "text": "Setuju zona waktu itu kesepakatan administratif, jadi saya tidak memakainya sebagai bukti utama. Soal Matahari “mengecil”: pengukuran teleskopik menunjukkan diameter sudutnya tetap sekitar 0,5° saat terbenam; yang berubah hanya posisi dan sedikit pembiasan atmosfer. Pada bidang datar, Matahari yang menjauh semestinya mengecil, bukan terpotong mulus oleh horizon. GPS juga bukan sekadar jam lokal: satelit memancarkan sinyal waktu-jarak, lalu penerima menghitung posisi 3D di atas elipsoid; rute kutub dan jadwal penerbangan memakai geodesi bola. Jadi model datar masih harus menjelaskan angka-angka itu, bukan hanya menggambarnya ulang."
+    },
+    {
+      "n": 4,
+      "side": "datar",
+      "speaker": "Kubu Bumi Datar",
+      "model": "dahono/kimi-k2.8",
+      "text": "Soal 0,5°: itu sudut yang dihitung dengan asumsi jarak dan model atmosfer tertentu; pembiasan serta pembesaran atmosfer bisa menutupi penyusutan, jadi belum bukti langsung. Terpotong mulus justru cocok dengan horizon datar dan lapisan atmosfer yang menutup Matahari, bukan lengkungan. GPS: penerima memang menghitung posisi 3D, tetapi solusinya bergantung pada model yang dimasukkan; data waktu-jarak mentah bisa dipetakan ke grid datar oleh perangkat lunak. Rute kutub juga geodesik pada proyeksi pilihan, bukan pengukuran kelengkungan langsung. Jadi angka-angka itu belum memaksa bola; model datar hanya perlu menjelaskan algoritma dan koreksinya."
+    },
+    {
+      "n": 5,
+      "side": "bulat",
+      "speaker": "Kubu Bumi Bulat",
+      "model": "dahono/deepseek-v4.1-flash",
+      "text": "Pembiasan atmosfer memang menggeser posisi Matahari sekitar 0,5° di horizon, tetapi koreksinya terukur dan tidak menghapus diameter sudut yang relatif tetap. Kalau Matahari benar-benar menjauh, penyusutannya harus jauh lebih besar; atmosfer tidak bisa menyembunyikan itu sekaligus mempertahankan piringan 0,5°. Horizon datar juga memotong Matahari dari bawah, sedangkan yang teramati piringan tersapu mulus sambil bentuk atasnya tetap melengkung, dan waktunya berubah sesuai lintang.\n\nGPS: pseudorange mentah dari satelit tidak “dipetakan” bebas ke grid datar tanpa distorsi yang berubah tiap lintang."
+    },
+    {
+      "n": 6,
+      "side": "datar",
+      "speaker": "Kubu Bumi Datar",
+      "model": "dahono/kimi-k2.8",
+      "text": "Pembiasan atmosfer menggeser posisi vertikal, bukan mengunci diameter sudut tetap sepanjang seluruh penurunan; jika cukup kuat menutupi penyusutan, tepi bawah dan atas akan terdistorsi, bukan menyapu mulus dengan lengkung atas utuh. Jadi 0,5° yang stabil justru menunjukkan Matahari tidak menjauh drastis, dan itu belum membuktikan bola. Horizon lokal memang memotong dari bawah; pada bidang datar piringan tersapu mulus saat melintasi garis horizon, sementara waktu terbenam berubah menurut lintang karena jalur musiman Matahari. Soal GPS, pseudorange mentah butuh koreksi jam, ionosfer, dan geometri; proyeksi ke grid datar selalu punya distorsi terukur, jadi bukan bukti bulat."
+    },
+    {
+      "n": 7,
+      "side": "bulat",
+      "speaker": "Kubu Bumi Bulat",
+      "model": "dahono/deepseek-v4.1-flash",
+      "text": "Setuju: pembiasan menggeser vertikal dan bisa mendistorsi tepi; jadi diameter 0,5° bukan bukti utama saya, hanya konsisten dengan Matahari jauh. Horizon bukan \"sapuan mulus\": pada bidang datar, kapal jauh semestinya tetap utuh sampai batas pandang, bukan hilang lambung dulu lalu tiang; pembiasan menggeser citra, tak menghasilkan urutan itu konsisten. Dip horizon dari ketinggian juga terukur sesuai radius. GPS bukan grid datar: solusi aslinya 3D Earth-centered; koreksi jam/ionosfer/geometri memakai ellipsoid, geoid, orbit. Distorsi peta akibat proyeksi, bukan asal data. Bukti bulat adalah konsistensi geodesi, satelit, penerbangan, dan pengamatan lintas lintang."
+    },
+    {
+      "n": 8,
+      "side": "datar",
+      "speaker": "Kubu Bumi Datar",
+      "model": "dahono/kimi-k2.8",
+      "text": "Saya catat: diameter 0,5° memang bukan bukti utama Anda. Soal kapal, refraksi bertingkat di atas air bisa membuat bagian bawah lebih dulu kabur atau hilang, sementara tiang yang lebih tinggi masih terlihat; itu urutan penglihatan, bukan bukti lengkung. Dip horizon juga dihitung dengan memasukkan radius sebagai asumsi, jadi tak bisa dipakai membuktikan asumsi itu sendiri. GPS konsisten karena seluruh koreksi memang dirancang dalam kerangka ellipsoid; konsistensi internal bukan verifikasi bentuk. Peta memang proyeksi, tetapi data geodesi dan pengamatan lintas lintang tetap ditafsirkan lewat model yang sama. Horizon yang terlihat datar tetap jadi pengamatan langsung saya."
+    },
+    {
+      "n": 9,
+      "side": "bulat",
+      "speaker": "Kubu Bumi Bulat",
+      "model": "dahono/deepseek-v4.1-flash",
+      "text": "Refraksi terukur dan terbatas: bisa menunda hilangnya lambung, bukan mengembalikannya setelah lewat horizon geometris pada kondisi stabil; pengamatan dari ketinggian berbeda memberi urutan yang cocok dengan lengkung. Dip horizon bukan memasukkan radius sebagai asumsi, tapi prediksi yang diuji lewat ketinggian dan jarak; hasilnya konsisten. GPS bukan sekadar koreksi internal—waktu satelit, geometri, dan trilaterasi harus cocok dengan pengukuran independen seperti laser ranging. Peta memang proyeksi, tetapi model geodesi diuji banyak observasi lintas lintang, bukan hanya konsistensi internal. Horizon tampak datar wajar pada skala lokal; lengkungnya muncul pada skala besar."
+    },
+    {
+      "n": 10,
+      "side": "datar",
+      "speaker": "Kubu Bumi Datar",
+      "model": "dahono/kimi-k2.8",
+      "text": "Saya tanggapi: \"kondisi stabil\" justru titik lemah—lapisan udara dekat air jarang stabil, dan variasi refraksi bisa menunda atau mengubah urutan hilangnya lambung. Dip horizon memang cocok dengan lengkung, tetapi pengukurannya bergantung pada ketinggian acuan dan koreksi atmosfer; cocok bukan berarti hanya lengkung yang bisa menjelaskannya. Laser ranging dan GPS memakai konvensi waktu serta geometri yang sama, jadi kesesuaiannya bisa bersifat internal-model. Geodesi lintas lintang juga bisa dipetakan lewat proyeksi dan koreksi. Horizon lokal yang datar bukan hal sepele: pada jarak dan ketinggian tempat lengkung seharusnya terlihat, yang tampak tetap garis lurus tanpa asumsi tambahan."
+    },
+    {
+      "n": 11,
+      "side": "bulat",
+      "speaker": "Kubu Bumi Bulat",
+      "model": "dahono/deepseek-v4.1-flash",
+      "text": "Refraksi memang bervariasi, jadi satu pengamatan kapal saya perlakukan hati-hati; tetapi variasi itu tak bisa membuat lambung yang sudah lewat horizon geometris muncul kembali secara sistematis di banyak ketinggian dan waktu. Dip bukan angka bebas: koreksinya diukur dari ketinggian alat serta tekanan/suhu, lalu diuji silang dengan radar, laser, dan satelit. GPS/laser bukan cuma konvensi internal karena memprediksi waktu, orbit, dan posisi yang cocok dengan pengukuran independen. Proyeksi geodesi alat bantu, tetapi busur, gravitasi, dan levelling fisik tetap menunjukkan lengkung. Horizon lokal tampak lurus karena lengkungnya sangat kecil pada skala pandang manusia."
+    },
+    {
+      "n": 12,
+      "side": "datar",
+      "speaker": "Kubu Bumi Datar",
+      "model": "dahono/kimi-k2.8",
+      "text": "Yang saya persoalkan bukan “lambung muncul kembali secara acak”, melainkan bahwa urutan hilangnya kapal sangat bergantung pada lapisan udara dekat air; itu bisa sistematis pada kondisi tertentu, bukan bukti lengkung. Dip yang “diukur” memakai tabel yang sudah mengasumsikan model bulat dan atmosfer standar, lalu dicocokkan dengan radar/laser yang juga terkena refraksi—itu konsistensi internal, bukan verifikasi bebas. GPS konsisten karena datum dan orbitnya memang dibangun dalam kerangka itu. Levelling fisik jarak pendek tidak membuktikan busur; horizon lokal yang lurus pada jarak pandang manusia justru pengamatan utama saya."
+    }
+  ],
+  "models": {
+    "bulat": "dahono/deepseek-v4.1-flash",
+    "datar": "dahono/kimi-k2.8"
+  },
+  "generated_by": "github-actions",
+  "note": "Kedua kubu diperankan AI untuk hiburan/edukasi."
+}
