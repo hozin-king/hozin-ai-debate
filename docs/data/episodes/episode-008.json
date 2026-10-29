@@ -1,0 +1,99 @@
+{
+  "id": "episode-008",
+  "title": "Debat #8: Bintang yang terlihat berbeda di belahan bumi utara dan selatan",
+  "topic": "Bintang yang terlihat berbeda di belahan bumi utara dan selatan",
+  "status": "live",
+  "turns_per_side": 6,
+  "turns": [
+    {
+      "n": 1,
+      "side": "datar",
+      "speaker": "Kubu Bumi Datar",
+      "model": "dahono/kimi-k2.8",
+      "text": "Terima kasih. Perbedaan bintang utara dan selatan memang nyata, tetapi tidak otomatis membuktikan bumi bola. Dalam model bumi datar, langit dapat dipahami sebagai kubah yang berputar di atas bidang datar; pengamat di lokasi berbeda melihat bagian kubah yang berbeda, dan bintang rendah memudar karena jarak serta ketebalan atmosfer. Polaris yang tampak menetap di utara dan Southern Cross di selatan konsisten dengan pusat pandang yang berbeda, bukan dengan kelengkungan yang tidak pernah terlihat mata. Horizon tetap datar, air tetap mencari permukaan datar. Karena itu saya menantikan argumen lawan: mengapa pola bintang tersebut tidak dapat dijelaskan oleh kubah dan perspektif?"
+    },
+    {
+      "n": 2,
+      "side": "bulat",
+      "speaker": "Kubu Bumi Bulat",
+      "model": "dahono/deepseek-v4.1-flash",
+      "text": "Kubah berpusat di utara tak bisa menjelaskan dua pusat rotasi bintang yang berlawanan: di utara bintang mengelilingi Polaris, di selatan mengelilingi kutub langit selatan, dan keduanya dapat difoto serentak. Tinggi Polaris terukur hampir sama dengan lintang pengamat, lalu turun dan hilang saat melintasi ekuator—bukan efek jarak/atmosfer. Southern Cross bukan sekadar bagian kubah lain; perpanjangannya menunjuk kutub selatan, konsisten dengan sumbu Bumi. Atmosfer memudarkan bintang dekat horizon, tetapi tidak membalik arah rotasi atau menciptakan kutub kedua. Horizon lokal tampak datar wajar pada bola berjari-jari 6.371 km. Jadi pola bintang menguji geometri, dan hasilnya bola."
+    },
+    {
+      "n": 3,
+      "side": "datar",
+      "speaker": "Kubu Bumi Datar",
+      "model": "dahono/kimi-k2.8",
+      "text": "Dua pusat rotasi tidak harus dua sumbu fisik. Dalam model kubah, utara adalah poros utama; kutub selatan adalah pola pandang sisi dalam kubah dari lokasi berbeda, sehingga arah putar tampak berlawanan. Foto serentak hanya merekam dua proyeksi. Ketinggian Polaris yang mengikuti lintang bisa dijelaskan geometri kubah dan refraksi berlapis; hilangnya di ekuator adalah batas pandang, bukan bukti bola. Southern Cross yang menunjuk selatan konsisten dengan simetri kubah. Horizon datar tetap pengamatan langsung; pada bola 6.371 km seharusnya ada penurunan terukur. Pola bintang belum memaksa bola."
+    },
+    {
+      "n": 4,
+      "side": "bulat",
+      "speaker": "Kubu Bumi Bulat",
+      "model": "dahono/deepseek-v4.1-flash",
+      "text": "Kubah berporos utara tetap tidak menjelaskan dua pusat rotasi bintang yang tampak sebagai titik nyata, masing-masing dikelilingi bintang penuh; foto serentak menunjukkan pusatnya terpisah sekitar 180° dan pola putar konsisten dengan satu sumbu bola, bukan proyeksi terpotong. Ketinggian Polaris sama dengan lintang hingga presisi; refraksi hanya beberapa menit busur dekat horizon, tak cukup untuk seluruh gradasi. Horizon “datar” bukan bukti: dip horizon dari ketinggian, lambung kapal hilang sebelum tiang, dan foto udara menunjukkan kelengkungan; efek 6.371 km memang kecil di dekat mata. GPS, satelit, penerbangan kutub, dan bayangan gerhana melengkapi bukti bola pepat."
+    },
+    {
+      "n": 5,
+      "side": "datar",
+      "speaker": "Kubu Bumi Datar",
+      "model": "dahono/kimi-k2.8",
+      "text": "Terima kasih. Dua pusat itu tidak otomatis dua sumbu: dua kamera serentak di lokasi berbeda memang melihat pusat masing-masing, dan dalam kubah berporos utara, pengamat di sisi selatan melihat bagian dalam kubah dari arah berlawanan, sehingga pola putar tampak terbalik. Ketinggian Polaris yang mengikuti lintang bisa muncul dari jarak horizontal ke poros pada bidang datar, bukan hanya dari bola. Refraksi dekat horizon memang kecil, tetapi lapisan atmosfer bertingkat dapat menambah gradasi. Dip, lambung yang hilang, dan foto udara bisa dijelaskan perspektif, batas resolusi, serta lensa lebar; GPS dan satelit pun bisa ditiru jaringan darat."
+    },
+    {
+      "n": 6,
+      "side": "bulat",
+      "speaker": "Kubu Bumi Bulat",
+      "model": "dahono/deepseek-v4.1-flash",
+      "text": "Terima kasih. Kubah berporos tunggal tetap hanya punya satu sumbu; 'melihat dari dalam' dari selatan tidak menghasilkan kutub langit kedua yang tetap di semua bujur. Tinggi Polaris = lintang, dan di selatan tinggi kutub selatan = |lintang|; jarak horizontal pada bidang datar tak memberi hubungan linear itu. Refraksi horizon kecil dan tak menciptakan gradasi stabil. Dip horizon mengikuti √(2h/R), kapal hilang lambung dulu; lensa lebar tak membuat kurvatur konsisten dari banyak kamera. GPS memakai waktu sinyal satelit dalam geometri 3D global; jaringan darat tak menjelaskan visibilitas dan solusi posisi serentak."
+    },
+    {
+      "n": 7,
+      "side": "datar",
+      "speaker": "Kubu Bumi Datar",
+      "model": "dahono/kimi-k2.8",
+      "text": "Terima kasih. Soal satu sumbu: dua pusat langit tidak harus dua poros fisik; pada kubah berporos utara, pusat selatan bisa merupakan proyeksi simetris sisi dalam kubah, sehingga tetap tampak di semua bujur. Linearitas Polaris = lintang adalah definisi koordinat langit, bukan bukti bola; pada bidang datar, ketinggian sudut bintang di kubah tidak wajib linear terhadap jarak horizontal. Refraksi horizon memang kecil, tetapi lapisan atmosfer dekat horizon dapat memberi gradasi stabil yang menipu; dip dan hilangnya lambung lebih dulu konsisten dengan perspektif dan kompresi atmosfer, bukan hanya kurvatur. Lensa lebar juga tidak otomatis membuktikan lengkungan konsisten."
+    },
+    {
+      "n": 8,
+      "side": "bulat",
+      "speaker": "Kubu Bumi Bulat",
+      "model": "dahono/deepseek-v4.1-flash",
+      "text": "Proyeksi simetris tetap harus menjelaskan mengapa kutub langit selatan tetap di satu arah langit untuk semua bujur, dengan pola bintang mengelilinginya berlawanan arah; kubah berporos tunggal tidak punya titik tetap kedua. Tinggi Polaris bukan sekadar definisi: ia berubah linear terhadap lintang geodesik yang diukur independen, dan di selatan tinggi kutub selatan juga linear. Refraksi atmosfer terlalu variabel dan kecil untuk menghasilkan dip konsisten serta lambung hilang lebih dulu di semua cuaca; itu justru ciri horizon melengkung. Lensa lebar bukan bukti tunggal—GPS, satelit, dan geodesi mengonfirmasi bola pepat."
+    },
+    {
+      "n": 9,
+      "side": "datar",
+      "speaker": "Kubu Bumi Datar",
+      "model": "dahono/kimi-k2.8",
+      "text": "Terima kasih. Kutub selatan yang tetap di semua bujur justru bisa dijelaskan kubah simetris terhadap poros utara: tiap pengamat melihat sisi dalam dari azimuth yang sama relatif poros, sehingga titik itu tampak tetap; pola berlawanan muncul karena pandangan sisi dalam, bukan sumbu fisik kedua. Linearitas tinggi kutub terhadap lintang geodesik tidak independen—lintang geodesik didefinisikan dalam model bola pepat, jadi linearitas itu konsekuensi asumsi. Refraksi tak perlu seragam; dip rata-rata dan lambung hilang lebih dulu bisa berasal dari jarak dan lapisan atmosfer. GPS dan geodesi konsisten di dalam model bola pepat, bukan bukti langsung bentuk Bumi."
+    },
+    {
+      "n": 10,
+      "side": "bulat",
+      "speaker": "Kubu Bumi Bulat",
+      "model": "dahono/deepseek-v4.1-flash",
+      "text": "Kubah simetris berporos utara tetap gagal: titik tetap kedua di langit selatan, dengan bintang mengelilinginya berlawanan arah, bukan proyeksi sisi dalam—geometri itu tidak menghasilkan pusat rotasi kedua yang sama untuk semua bujur. Linearitas lintang bukan sekadar definisi: triangulasi, leveling, dan GNSS menguji ellipsoid secara independen dan cocok. Refraksi bisa dihitung; ia tidak membuat lambung kapal hilang di bawah horizon sementara tiang tetap tampak. GPS/satelit bukan konsisten internal saja: orbit, waktu, dan lintas kutub memprediksi posisi nyata. Foto serentak, gerhana, dan penerbangan lintas kutub tetap menunjuk oblate spheroid."
+    },
+    {
+      "n": 11,
+      "side": "datar",
+      "speaker": "Kubu Bumi Datar",
+      "model": "dahono/kimi-k2.8",
+      "text": "Terima kasih. Keberatan Anda tepat: proyeksi sederhana tidak cukup. Kubah simetris bukan bola berpusat tunggal, tetapi dua cekungan cermin bertemu di ekuator; bintang selatan yang berlawanan arah adalah pantulan sisi dalam, dan titik tetapnya lahir dari simetri itu, bukan poros kedua. Linearitas lintang juga tidak bebas model: triangulasi, leveling, dan GNSS diikat ke ellipsoid acuan serta koreksi refraksi, jadi kecocokan bisa berasal dari model yang menyesuaikan data. Refraksi tidak menghapus lambung, tetapi dengan jarak dan tinggi pengamat membuatnya tampak turun lebih dulu. GPS dan foto pun bergantung pada asumsi geometri."
+    },
+    {
+      "n": 12,
+      "side": "bulat",
+      "speaker": "Kubu Bumi Bulat",
+      "model": "dahono/deepseek-v4.1-flash",
+      "text": "Pantulan cermin membalik paritas: rasi selatan akan tampak cermin dan rotasinya terbalik; pengamatan menunjukkan langit selatan bukan bayangan langit utara, melainkan pusat rotasi sendiri yang konsisten di semua bujur. GNSS/triangulasi tidak menyesuaikan ke ellipsoid; ellipsoid diukur dari metode independen—waktu sinyal satelit, orbit, gravimetri, VLBI—yang saling mengunci. Kubah harus menjelaskan mengapa semua koreksi refraksi dan geodesi konsisten dengan bola pepat, bukan hanya mungkin. Refraksi tak menciptakan dua kutub langit tetap; kapal hilang dari lambung ke atas sesuai horizon lengkung."
+    }
+  ],
+  "models": {
+    "bulat": "dahono/deepseek-v4.1-flash",
+    "datar": "dahono/kimi-k2.8"
+  },
+  "generated_by": "github-actions",
+  "note": "Kedua kubu diperankan AI untuk hiburan/edukasi."
+}

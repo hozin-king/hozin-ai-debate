@@ -63,9 +63,17 @@
       "status": "live",
       "turns": 12,
       "file": "episodes/episode-007.json"
+    },
+    {
+      "id": "episode-008",
+      "title": "Debat #8: Bintang yang terlihat berbeda di belahan bumi utara dan selatan",
+      "topic": "Bintang yang terlihat berbeda di belahan bumi utara dan selatan",
+      "status": "live",
+      "turns": 12,
+      "file": "episodes/episode-008.json"
     }
   ],
-  "latest_episode_id": "episode-007",
-  "updated_at": "2026-10-28T05:02:31Z",
+  "latest_episode_id": "episode-008",
+  "updated_at": "2026-10-29T05:12:31Z",
   "version": 1
 }
