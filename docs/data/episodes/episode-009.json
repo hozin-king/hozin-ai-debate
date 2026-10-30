@@ -1,0 +1,99 @@
+{
+  "id": "episode-009",
+  "title": "Debat #9: Foto Bumi dari luar angkasa dan bentuk planet yang terlihat",
+  "topic": "Foto Bumi dari luar angkasa dan bentuk planet yang terlihat",
+  "status": "live",
+  "turns_per_side": 6,
+  "turns": [
+    {
+      "n": 1,
+      "side": "bulat",
+      "speaker": "Kubu Bumi Bulat",
+      "model": "dahono/deepseek-v4.1-flash",
+      "text": "Saya membuka dengan sederhana: foto Bumi dari luar angkasa—Blue Marble Apollo 17, citra satelit cuaca geostasioner, dan rekaman ISS—menunjukkan horizon melengkung serta distribusi daratan-lautan yang konsisten dengan bola pepat. Foto bukan bukti tunggal; ia cocok dengan pengukuran geodesi, GPS, dan penerbangan lintas kutub. Jika Bumi datar, citra independen dari banyak orbit seharusnya mudah membongkarnya, bukan malah saling menguatkan. Saya siap mendengar penjelasan alternatif, tetapi bentuk yang terlihat dan data lintasan satelit perlu dijelaskan secara konsisten."
+    },
+    {
+      "n": 2,
+      "side": "datar",
+      "speaker": "Kubu Bumi Datar",
+      "model": "dahono/kimi-k2.8",
+      "text": "Saya akui citra-citra itu tampak meyakinkan, tetapi justru di situ persoalannya: hampir semuanya melewati lensa sudut lebar, penyusunan banyak bingkai, atau render, sehingga lengkungan di tepi frame sulit dipisahkan dari distorsi optik. Citra satelit cuaca geostasioner umumnya komposit, bukan satu foto mentah; rekaman ISS memakai lensa fisheye. GPS dan geodesi memang konsisten dengan model bola—tetapi itu model yang sedang diuji, bukan bukti netral. Lintasan lintas kutub pun bisa direncanakan dalam proyeksi peta tertentu."
+    },
+    {
+      "n": 3,
+      "side": "bulat",
+      "speaker": "Kubu Bumi Bulat",
+      "model": "dahono/deepseek-v4.1-flash",
+      "text": "Betul, distorsi lensa dan komposit harus dikoreksi; tetapi itu bisa diuji: lensa fisheye dikalibrasi, dan lengkungan tetap muncul pada lensa sempit, frame mentah DSCOVR/EPIC, serta rekaman dengan parameter berbeda. Komposit geostasioner pun punya bingkai mentah per kanal. Yang lebih menentukan: geodesi, pengukuran baseline, satelit ranging, dan GPS bukan sekadar model—posisi satelit memprediksi jarak, waktu, dan orbit dengan koreksi relativistik; model datar gagal menjelaskannya. Lintasan kutub dalam proyeksi peta tetap harus konsisten dengan waktu tempuh, arah, dan navigasi nyata. Gerhana bulan juga memberi bayangan bulat dari berbagai posisi."
+    },
+    {
+      "n": 4,
+      "side": "datar",
+      "speaker": "Kubu Bumi Datar",
+      "model": "dahono/kimi-k2.8",
+      "text": "Kalibrasi lensa dan bingkai mentah tetap tidak sepenuhnya independen: pipeline, metadata, dan pemilihan frame dikendalikan pihak yang sama, sehingga lengkungan pada lensa sempit masih bisa berasal dari proyeksi, cropping, atau distorsi residual. GPS dan satellite ranging membuktikan ada jaringan pemancar waktu yang konsisten, bukan bentuk Bumi; koreksi relativistik adalah parameter model yang disetel agar cocok dengan data, bukan bukti terpisah. Geodesi baseline juga berangkat dari asumsi ellipsoid lalu dikoreksi secara iteratif. Rute kutub lebih mencerminkan konvensi chart dan izin terbang daripada lintasan fisik."
+    },
+    {
+      "n": 5,
+      "side": "bulat",
+      "speaker": "Kubu Bumi Bulat",
+      "model": "dahono/deepseek-v4.1-flash",
+      "text": "Poin Anda soal dependensi pipeline valid untuk satu citra, tetapi bukti bentuk tidak bergantung pada satu rantai: DSCOVR, ISS, Himawari, Meteosat berasal dari operator, sensor, orbit, dan pipeline berbeda; lengkungan limb konsisten dengan geometri bola/oblat dan landmark serta bintang di frame. GPS bukan sekadar jaringan waktu: trilaterasi empat satelit memberi posisi 3D; skala, cakrawala radio, dan visibilitas satelit hanya menutup pada spheroid oblat. Koreksi relativistik bukan knob bebas—diturunkan dari relativitas umum dan diuji terpisah. Geodesi tidak berhenti pada asumsi ellipsoid: parameter diukur via VLBI, SLR, GNSS, lalu residu diprediksi."
+    },
+    {
+      "n": 6,
+      "side": "datar",
+      "speaker": "Kubu Bumi Datar",
+      "model": "dahono/kimi-k2.8",
+      "text": "Soal kemandirian operator: berbeda lembaga bukan berarti berbeda asumsi. DSCOVR, ISS, Himawari, dan Meteosat sama-sama memakai konvensi kalibrasi, model orbit, serta proyeksi yang bertumpu pada geometri bola; kesesuaian limb karena itu bisa lahir dari kerangka yang sama, bukan dari pengamatan bebas model. GPS pun demikian: trilaterasi empat satelit memang memberi solusi 3D, tetapi ephemerid, jam, dan koreksi relativistik adalah bagian dari model yang harus diasumsikan lebih dulu—solusi itu menguji konsistensi internal, bukan bentuk Bumi secara langsung. Begitu pula VLBI, SLR, dan GNSS: parameter ellipsoid diukur lalu residu ditafsirkan dalam kerangka ellipsoid."
+    },
+    {
+      "n": 7,
+      "side": "bulat",
+      "speaker": "Kubu Bumi Bulat",
+      "model": "dahono/deepseek-v4.1-flash",
+      "text": "Poin Anda benar bahwa ephemerid, jam, dan kerangka acuan adalah model. Tapi itu bukan lingkaran: posisi satelit diukur independen lewat radar, laser ranging, dan optik; parameter ellipsoid diestimasi dari data, bukan ditetapkan. Jika geometri Bumi salah, residu SLR/VLBI/GNSS, dip horizon versus ketinggian, dan visibilitas satelit akan meleset sistematis—dan model datar tidak menghasilkan prediksi kuantitatif itu. Kesesuaian lintas operator bermakna karena sumber galatnya berbeda. Kesamaan asumsi dasar justru hipotesis yang bisa diuji: cari prediksi di mana model bola dan datar berbeda, lalu bandingkan. Sampai sekarang, model bola yang bertahan."
+    },
+    {
+      "n": 8,
+      "side": "datar",
+      "speaker": "Kubu Bumi Datar",
+      "model": "dahono/kimi-k2.8",
+      "text": "Data radar/laser memang independen, tetapi posisi satelit tidak diukur langsung: waktu tempuh dan sudut baru menjadi koordinat setelah melewati model geometri dan dinamika. Residu kecil bisa berarti model bola cocok, tetapi juga bisa diserap koreksi atmosfer dan fitting parameter. Uji pembeda yang Anda minta harus memisahkan dip horizon dari refraksi dan ketinggian pengamat; di situ model datar memberi prediksi kualitatif: horizon tetap sejajar mata, tanpa penurunan geometris. Saya akui model datar belum punya ephemerid rinci—itu keterbatasan, bukan bukti geometri bola. Kesesuaian lintas operator tetap bisa lahir dari konvensi bersama."
+    },
+    {
+      "n": 9,
+      "side": "bulat",
+      "speaker": "Kubu Bumi Bulat",
+      "model": "dahono/deepseek-v4.1-flash",
+      "text": "Soal dip horizon: itu justru uji pembeda yang kuat. Model datar memprediksi dip nol pada semua ketinggian; model bola memprediksi dip ≈ √(2h/R). Pengukuran theodolite pada 10 m, 100 m, 1 km memberi dip yang naik sistematis sesuai prediksi itu. Refraksi memang ada, tetapi bisa dikoreksi dari suhu/tekanan dan tidak menghasilkan ketergantungan ketinggian seperti itu. Untuk satelit, laser ranging ke retroreflector bukan sekadar fitting: jarak dua arah diukur, koreksi atmosfer dipisahkan multifrekuensi/model cuaca, dan orbit ditentukan lewat banyak stasiun serta pengamatan berlebih. Kesesuaian lintas operator karena data independen, bukan hanya konvensi."
+    },
+    {
+      "n": 10,
+      "side": "datar",
+      "speaker": "Kubu Bumi Datar",
+      "model": "dahono/kimi-k2.8",
+      "text": "Poin Anda soal dip horizon belum sepenuhnya pembeda. Kenaikan sistematis bisa berasal dari gradien refraksi dekat horizon, koreksi suhu/tekanan yang tak sempurna, dan tinggi efektif instrumen. Rumus √(2h/R) baru menjadi uji bola setelah horizon dianggap benar-benar level dan refraksi dimodelkan dengan asumsi tertentu. Pada laser ranging, waktu tempuh memang data, tetapi posisi orbit baru terbentuk setelah koordinat stasiun, jam, model atmosfer, dan dinamika yang bertumpu pada kerangka geodetik bola. Residu kecil menunjukkan konsistensi internal, bukan bukti independen bentuk."
+    },
+    {
+      "n": 11,
+      "side": "bulat",
+      "speaker": "Kubu Bumi Bulat",
+      "model": "dahono/deepseek-v4.1-flash",
+      "text": "Refraksi memang dikoreksi; setelah itu dip tetap naik ≈√(2h/R). Model datar tak punya mekanisme yang membuat dip nol di semua ketinggian sekaligus, dan refraksi tak menjelaskan kecocokan lintas ketinggian. Pada laser ranging, koordinat stasiun diikat ke ITRF lewat VLBI/GNSS/SLR, bukan diasumsikan bulat; ellipsoid diestimasi dari data. Residu kecil diuji silang oleh teknik geodesi independen dan gravimetri, bukan hanya konsistensi internal. Penerbangan lintas kutub dan GPS harian menambah bukti."
+    },
+    {
+      "n": 12,
+      "side": "datar",
+      "speaker": "Kubu Bumi Datar",
+      "model": "dahono/kimi-k2.8",
+      "text": "Soal dip: koreksi refraksi tidak netral karena memakai profil atmosfer dan asumsi kelengkungan, jadi sisa kenaikan √(2h/R) bukan bukti bebas. Pada permukaan datar, horizon efektif bisa bergeser akibat gradien suhu/tekanan dan tinggi instrumen, sehingga dip tak harus nol sempurna. ITRF memang diestimasi dari data, tetapi estimasinya sudah dibingkai konvensi geometri dan kalibrasi; VLBI, GNSS, dan SLR saling menguji di dalam kerangka yang sama, bukan menguji kerangka itu. Gravimetri pun bergantung pada model distribusi massa. Penerbangan kutub dan GPS harian konsisten dengan model bola, tetapi konsistensi bukan verifikasi independen. Jadi klaim “pembeda kuat” belum berdiri."
+    }
+  ],
+  "models": {
+    "bulat": "dahono/deepseek-v4.1-flash",
+    "datar": "dahono/kimi-k2.8"
+  },
+  "generated_by": "github-actions",
+  "note": "Kedua kubu diperankan AI untuk hiburan/edukasi."
+}
