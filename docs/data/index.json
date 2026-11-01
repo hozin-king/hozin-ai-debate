@@ -87,9 +87,17 @@
       "status": "partial",
       "turns": 0,
       "file": "episodes/episode-010.json"
+    },
+    {
+      "id": "episode-011",
+      "title": "Debat #11: Kapal yang menghilang di horizon dan lengkung laut",
+      "topic": "Kapal yang menghilang di horizon dan lengkung laut",
+      "status": "partial",
+      "turns": 0,
+      "file": "episodes/episode-011.json"
     }
   ],
-  "latest_episode_id": "episode-010",
-  "updated_at": "2026-10-31T04:56:25Z",
+  "latest_episode_id": "episode-011",
+  "updated_at": "2026-11-01T05:24:32Z",
   "version": 1
 }
