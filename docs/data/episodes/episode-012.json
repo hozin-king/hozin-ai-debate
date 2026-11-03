@@ -1,0 +1,14 @@
+{
+  "id": "episode-012",
+  "title": "Debat #12: Penerbangan dan rute lintas kutub",
+  "topic": "Penerbangan dan rute lintas kutub",
+  "status": "partial",
+  "turns_per_side": 6,
+  "turns": [],
+  "models": {
+    "bulat": "dahono/deepseek-v4.1-flash",
+    "datar": "dahono/auto"
+  },
+  "generated_by": "github-actions",
+  "note": "Kedua kubu diperankan AI untuk hiburan/edukasi."
+}
