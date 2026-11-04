@@ -1,0 +1,99 @@
+{
+  "id": "episode-013",
+  "title": "Debat #13: Satelit, GPS, dan stasiun luar angkasa",
+  "topic": "Satelit, GPS, dan stasiun luar angkasa",
+  "status": "live",
+  "turns_per_side": 6,
+  "turns": [
+    {
+      "n": 1,
+      "side": "bulat",
+      "speaker": "Kubu Bumi Bulat",
+      "model": "dahono/deepseek-v4.1-flash",
+      "text": "Selamat datang. Saya buka dengan alat di tangan Anda: GPS. Sistem itu bekerja karena puluhan satelit mengorbit pada ketinggian sekitar 20.200 km dan memancarkan waktu atom. Jika Bumi cakram datar, geometri orbit dan waktu sinyalnya tak akan pernah cocok, dan posisi Anda tak akan terkunci. Stasiun Luar Angkasa Internasional juga rutin melintas, jadwalnya dipublikasikan, dan astronom amatir memotret strukturnya. Antena parabola rumah pun tetap mengarah ke satu titik langit, tempat satelit geostasioner berada. Silakan lawan menjelaskan bagaimana semua itu konsisten tanpa Bumi bulat."
+    },
+    {
+      "n": 2,
+      "side": "datar",
+      "speaker": "Kubu Bumi Datar",
+      "model": "dahono/kimi-k2.8",
+      "text": "Terima kasih, poin Anda menarik. Tapi GPS justru bergantung pada infrastruktur darat: stasiun referensi, koreksi diferensial, dan pseudolite. Penerima hanya butuh sinkronisasi waktu, bukan bola-bola di 20.200 km. Antena parabola di banyak kota menunjuk satu arah langit — itu konsisten dengan pemancar tinggi di atmosfer, bukan objek di ruang hampa. ISS yang \"melintas\" tak pernah tampak berstruktur dengan mata telanjang; foto amatir bisa drone atau proyeksi. Jadi semua bukti itu masih bisa dijelaskan tanpa bola berputar."
+    },
+    {
+      "n": 3,
+      "side": "bulat",
+      "speaker": "Kubu Bumi Bulat",
+      "model": "dahono/deepseek-v4.1-flash",
+      "text": "Koreksi diferensial dan pseudolite hanya menyempurnakan sinyal GNSS, bukan menggantikannya — tak ada jaringan darat yang mampu memberi posisi 3D di tengah Samudra Pasifik. Penerima butuh empat satelit sekaligus, bukan sekadar waktu, agar x-y-z dan bias jam terpecahkan; koreksi relativistik diterapkan rutin. Parabola yang menunjuk satu arah justru konsisten dengan orbit geostasioner di 35.786 km: elevasinya menurun sesuai lintang, persis prediksi bola. ISS difoto amatir berstruktur lewat teleskop, bahkan melintas di depan Bulan sesuai jadwal orbit 51,6°."
+    },
+    {
+      "n": 4,
+      "side": "datar",
+      "speaker": "Kubu Bumi Datar",
+      "model": "dahono/kimi-k2.8",
+      "text": "Parabola tetap yang elevasinya menurun menurut lintang justru cocok dengan pemancar tunggal di titik tinggi pada cakram — geometri pemancar tetap menghasilkan sudut yang sama. Soal Pasifik: kabel laut dan stasiun terapung sudah ada, relay darat tak perlu menutupi seluruh laut. Empat sinyal itu bisa pemancar darat berpenanda waktu, bukan bola di 20.200 km. Koreksi relativistik hanyalah angka yang disetel ke model; model apa pun bisa dibuat cocok. Foto ISS amatir bisa objek stratosfer terjadwal. Yang belum Anda tunjukkan tetap satu: pengukuran langsung lengkungan."
+    },
+    {
+      "n": 5,
+      "side": "bulat",
+      "speaker": "Kubu Bumi Bulat",
+      "model": "dahono/deepseek-v4.1-flash",
+      "text": "Satu pemancar diam tidak bisa menjelaskan satelit yang terbit dan terbenam, Doppler yang bergeser tiap menit, dan ephemeris yang diperbarui harian — geometri sumber tetap tak menghasilkan sumber bergerak. Dan offset jam GPS disetel sebelum peluncuran, sesuai prediksi relativitas, bukan penyetelan setelah data masuk.\n\nUntuk lengkung langsung: ukur sudut depresi horizon dari pesawat. Di ketinggian 10 km hasilnya sekitar 3,2°, persis akar(2h/R) — angka yang bisa Anda hitung sendiri sebelum terbang. Cara lain, ukur sudut zenith timbal balik antara dua titik dengan teodolit; jumlahnya melebihi 180° sebesar jarak/R. Itu pengukuran, bukan foto."
+    },
+    {
+      "n": 6,
+      "side": "datar",
+      "speaker": "Kubu Bumi Datar",
+      "model": "dahono/kimi-k2.8",
+      "text": "Terima kasih. Doppler dan ephemeris harian tetap bisa datang dari sumber bergerak di atas cakram — balon stratosfer atau wahana yang dijadwalkan ulang. Soal offset jam: itu justru koreksi tetap yang boleh dipilih agar cocok dengan model bola; kesetaraan dengan prediksi relativitas adalah tafsir, bukan bukti bebas model. Untuk 3,2°: angka itu lahir dari rumus akar(2h/R), jadi ia mengandaikan R lebih dulu, bukan mengukurnya. Refraksi dan tinggi lapisan atmosfer menggeser horizon nyata dari prediksi itu. Begitu pula jumlah sudut teodolit: kalibrasi alat dan pemilihan titik bisa memasukkan selisih lebih dari 180° tanpa lengkungan. Setuju, itu pengukuran — tetapi tetap tafsir di atas asumsi."
+    },
+    {
+      "n": 7,
+      "side": "bulat",
+      "speaker": "Kubu Bumi Bulat",
+      "model": "dahono/deepseek-v4.1-flash",
+      "text": "Balon tak bisa dijadwalkan ulang mengikuti almanak yang dipublikasikan bertahun-tahun sebelumnya; pseudorange juga mengukur jarak absolut ke empat satelit, geometri yang hanya konsisten dengan orbit 20.200 km. Offset jam relativistik sudah dihitung sebelum peluncuran, dan tandanya justru berlawanan untuk orbit rendah dan tinggi — tak ada satu koreksi tetap yang cocok untuk GPS, Galileo, dan BeiDou sekaligus. Soal 3,2°: teodolit di pesawat mengukur dip secara langsung, dan dip tumbuh sebagai akar tinggi — pola yang tak bisa ditiru refraksi, yang maksimal sekitar 0,5°. Salah kalibrasi bersifat acak, bukan sistematis menurut lintang."
+    },
+    {
+      "n": 8,
+      "side": "datar",
+      "speaker": "Kubu Bumi Datar",
+      "model": "dahono/kimi-k2.8",
+      "text": "Terima kasih, argumen Anda rapi. Tapi almanak yang dipublikasikan bertahun-tahun justru bisa dihasilkan dari pola yang sudah diprogram sebelumnya — jadwal konsisten bukan bukti tunggal orbit nyata. Pseudorange mengukur waktu tempuh, dan waktu tempuh hanya bermakna bila jam penerima dan pemancar dipercaya; dengan jaringan stasiun darat, empat \"jarak\" itu bisa disintesis. Soal tanda offset jam yang berbeda antar-konstelasi: itu bisa dipilih per sistem di perangkat lunak, bukan hukum alam. Dan dip 3,2°? Teodolit mengukur apa yang dikalibrasi untuk diukur — kesalahan sistematis menurut lintang bisa datang dari tabel koreksi, bukan cakrawala."
+    },
+    {
+      "n": 9,
+      "side": "bulat",
+      "speaker": "Kubu Bumi Bulat",
+      "model": "dahono/deepseek-v4.1-flash",
+      "text": "Terima kasih. Almanak bukan pola mati: posisi prediksi dibandingkan ephemeris presisi setiap hari, dan seret atmosfer serta perturbasi Bulan–Matahari harus terus dikoreksi — jadwal terprogram akan melenceng dalam hitungan hari, bukan bertahan bertahun-tahun. Pseudorange justru tidak menuntut jam penerima dipercaya: bias jamnya dijadikan variabel keempat yang dipecahkan bersama x, y, z — itu sebabnya butuh empat satelit, bukan tiga. Letak satelit itu konsisten di seluruh penerima dunia saat bersamaan. Dan laser ranging dua arah mengukur waktu pulang-pergi dengan satu jam saja, jadi tak ada sepasang jam yang perlu saling dipercaya."
+    },
+    {
+      "n": 10,
+      "side": "datar",
+      "speaker": "Kubu Bumi Datar",
+      "model": "dahono/kimi-k2.8",
+      "text": "Terima kasih. Justru koreksi harian itu janggal: bila orbitnya nyata, mengapa posisi harus terus disetel agar cocok? Tabel koreksi bisa jadi bagian sistem yang menjaga dirinya konsisten, bukan bukti bebas. Bias jam sebagai variabel keempat pun tidak menguatkan: variabel bebas tambahan membuat solusi lebih lentur dibengkokkan agar x, y, z keluar sesuai kehendak. Laser ranging dua arah tetap mengandaikan jalur lurus dan kecepatan cahaya tetap; jaraknya bergantung pada koordinat stasiun yang sudah ditetapkan dari model bulat — sirkular, mengukur dengan asumsi yang hendak dibuktikan. Konsistensi global lebih wajar dijelaskan oleh jaringan darat yang disinkronkan."
+    },
+    {
+      "n": 11,
+      "side": "bulat",
+      "speaker": "Kubu Bumi Bulat",
+      "model": "dahono/deepseek-v4.1-flash",
+      "text": "Koreksi bukan penyetelan agar cocok: model seret atmosfer dan perturbasi Bulan–Matahari dihitung serta dipublikasikan lebih dulu, lalu residunya kecil saat diukur — itu prediksi, bukan pembengkokan; sistem palsu justru tak perlu koreksi. Bias jam cuma satu parameter bagi 8–12 satelit sekaligus, tak cukup menyerap galat geometri di banyak arah tanpa residu membengkak. Laser ranging juga tidak sirkular: ia mengukur waktu tempuh ke reflektor, dan reflektor hanya memantul saat prediksi menaruhnya di titik itu. Jaringan darat pun tak menjangkau: tembakan laser ke LAGEOS dan Bulan, serta sinyal di atas Pasifik dan Antartika, di luar jangkauannya."
+    },
+    {
+      "n": 12,
+      "side": "datar",
+      "speaker": "Kubu Bumi Datar",
+      "model": "dahono/kimi-k2.8",
+      "text": "Terima kasih. Justru karena koreksinya dihitung lebih dulu, ia tak membuktikan orbit nyata: simulator pun bisa mempublikasikan \"model seret\" dari hukumnya sendiri, lalu melaporkan residu kecil — sebab prediksi dan pengukuran lahir dari sumber yang sama, bukan dua pihak bebas. Satu offset jam memang sempit, tapi geometri acuannya juga berasal dari ephemeris itu; lingkarannya tetap tertutup. Laser ranging mengukur waktu tempuh ke titik yang diprediksi ephemeris, jadi bila prediksi bergeser, data ikut bergeser. Dan Anda sendiri menyebut jaringan darat tak menjangkau Pasifik dan Antartika — artinya bagian terbesar permukaan justru tanpa verifikasi bebas."
+    }
+  ],
+  "models": {
+    "bulat": "dahono/deepseek-v4.1-flash",
+    "datar": "dahono/kimi-k2.8"
+  },
+  "generated_by": "github-actions",
+  "note": "Kedua kubu diperankan AI untuk hiburan/edukasi."
+}
