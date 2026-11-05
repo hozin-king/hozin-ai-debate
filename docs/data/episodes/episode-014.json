@@ -1,0 +1,99 @@
+{
+  "id": "episode-014",
+  "title": "Debat #14: Air laut yang selalu datar dan permukaan air",
+  "topic": "Air laut yang selalu datar dan permukaan air",
+  "status": "live",
+  "turns_per_side": 6,
+  "turns": [
+    {
+      "n": 1,
+      "side": "datar",
+      "speaker": "Kubu Bumi Datar",
+      "model": "dahono/kimi-k2.8",
+      "text": "Terima kasih atas kesempatan membuka debat ini. Argumen inti kami sederhana: air selalu mencari permukaan yang rata. Itu bukan klaim kami, melainkan sifat dasar zat cair yang bisa siapa pun uji — tuang air di meja, permukaannya langsung tenang dan datar. Jika Bumi benar-benar bola berputar, air laut seharusnya melengkung mengikuti bola dan \"menempel\" di sisi bawah, padahal kita tahu air selalu jatuh ke bawah. Fakta yang bisa disaksikan mata: horizon laut tampak rata, air kolam selalu rata, dan tak ada satu pun orang yang pernah melihat lengkungan air laut dengan mata kepala sendiri, bahkan dari ketinggian."
+    },
+    {
+      "n": 2,
+      "side": "bulat",
+      "speaker": "Kubu Bumi Bulat",
+      "model": "dahono/deepseek-v4.1-flash",
+      "text": "\"Rata\" bagi zat cair bukan bidang lurus mutlak, melainkan permukaan yang selalu tegak lurus gravitasi. Di meja, skalanya terlalu kecil sehingga lengkungannya tak terukur — lantai rumah pun tampak datar meski melengkung mengikuti Bumi. Lalu, \"bawah\" berarti menuju pusat massa Bumi, bukan arah tetap di ruang. Karena itu air di semua sisi Bumi sama-sama \"jatuh ke bawah\", dan tak ada yang perlu menempel di sisi bawah. Horizon memang tampak rata sebab lengkungannya hanya sekitar 8 cm per km, tapi jejaknya terukur: kapal hilang lambung dulu sebelum tiangnya, cakrawala punya sudut dip dari ketinggian, dan geodesi serta satelit memetakannya."
+    },
+    {
+      "n": 3,
+      "side": "datar",
+      "speaker": "Kubu Bumi Datar",
+      "model": "dahono/kimi-k2.8",
+      "text": "Anda mendefinisikan \"rata\" dengan mengandaikan gravitasi berpusat — kesimpulan bulat sudah disisipkan ke dalam premisnya. Pengamatan netral tak menunjukkan itu: air di wadah mana pun berhenti di bidang datar tanpa perlu tahu ada \"pusat massa\".\n\nSoal 8 cm per km, kalikan saja: dua danau sepanjang 100 km semestinya berselisih 8 meter di ujung-ujungnya — itu tidak tersembunyi, itu terlihat mata. Survei tanah pun bekerja dengan bidang datar, bukan bola.\n\nKapal yang \"hilang lambung dulu\" konsisten dengan batas pandang dan pembesaran: teleskop mengembalikan lambungnya. Sudut dip dan peta satelit adalah model yang dibangun, bukan pengamatan telanjang."
+    },
+    {
+      "n": 4,
+      "side": "bulat",
+      "speaker": "Kubu Bumi Bulat",
+      "model": "dahono/deepseek-v4.1-flash",
+      "text": "Soal 8 cm/km²: itu penyimpangan garis lurus dari lengkungan, bukan beda tinggi air. Dua ujung danau sepanjang 100 km justru sama tinggi terhadap pusat Bumi — air mengikuti permukaan equipotensial, karena itulah danau tenang dan tak \"miring\". Kalau air benar-benar mengikuti bidang lurus, ujung danau 100 km akan menyimpang ratusan meter dari permukaan acuan — itu yang tak terlihat.\n\nGravitasi berpusat bukan asumsi: unting-unting di lintang berbeda menunjuk bintang yang berbeda, dan jaringan geodetik nasional memang memakai koreksi kelengkungan; survei lokal boleh dianggap datar karena skalanya kecil."
+    },
+    {
+      "n": 5,
+      "side": "datar",
+      "speaker": "Kubu Bumi Datar",
+      "model": "dahono/kimi-k2.8",
+      "text": "Poin Anda justru berputar: \"permukaan equipotensial\" hanya bermakna kalau gravitasi berpusat sudah diandaikan, jadi hasilnya tak bisa dipakai membuktikan premisnya sendiri. Soal unting-unting menunjuk bintang berbeda — refraksi atmosfer dan paralaks bintang sudah cukup menjelaskan itu tanpa perlu bola. Dan koreksi kelengkungan pada jaringan geodetik? Itu disuntikkan ke data agar cocok dengan model; alat presisi memang dikalibrasi mengikuti asumsi itu. Yang netral hanyalah pengamatan: air berhenti rata, horizon lurus, lengkungan tak pernah tampak meski di danau 100 km."
+    },
+    {
+      "n": 6,
+      "side": "bulat",
+      "speaker": "Kubu Bumi Bulat",
+      "model": "dahono/deepseek-v4.1-flash",
+      "text": "Equipotensial bukan asumsi: arah unting-unting di Quito, London, dan Sydney terukur berbeda beberapa derajat, dan itu data lapangan, bukan kalibrasi pabrik. Refraksi sifatnya lokal dan acak — mustahil menghasilkan pola sistematis mengikuti lintang. Koreksi kelengkungan di jaringan geodetik pun diuji silang: dua tim mengukur dari arah berlawanan, dan selisihnya konsisten dengan bola; itu tak bisa \"disuntikkan\" tanpa ketahuan. Soal danau 100 km: lengkungan 8 cm/km² memang kecil, tapi horizon tetap berhenti ~5 km dari mata setinggi 2 m — itu justru bukti air mengikuti lengkung, bukan garis lurus. GPS dan penerbangan lintas kutub beroperasi tanpa perlu mengandaikan apa pun."
+    },
+    {
+      "n": 7,
+      "side": "datar",
+      "speaker": "Kubu Bumi Datar",
+      "model": "dahono/kimi-k2.8",
+      "text": "Anomali gravitasi lokal itu fakta terukur: survei mendeteksi penyimpangan besar di dekat pegunungan dan palung laut, cukup membelokkan unting-unting beberapa derajat tanpa perlu bola. Jadi pola menurut lintang bisa muncul dari menafsirkan data dengan model yang sudah bulat sejak awal — persis keberatan kami soal premis. Horizon 5 km bukan garis lengkung yang tampak; itu batas kontras, kabut, dan lapisan udara hangat. Kapal yang \"tenggelam\" dari bawah ke atas juga muncul di fatamorgana tanpa lengkungan apa pun. Adapun GPS dan rute lintas kutub: model koordinat memang bisa bulat, itu alat kerja, bukan pengukuran langsung bentuk fisik."
+    },
+    {
+      "n": 8,
+      "side": "bulat",
+      "speaker": "Kubu Bumi Bulat",
+      "model": "dahono/deepseek-v4.1-flash",
+      "text": "Anomali lokal justru didefinisikan sebagai penyimpangan dari medan acuan global — pola lintang tetap muncul setelah anomali dikurangi; anomali itu sempit dan arahnya acak. Soal horizon: sudut 'dip' cakrawala terhadap garis datar terukur dari gunung, balon, dan pesawat, dan angkanya cocok dengan rumus lengkung — makin tinggi, makin besar. Kabut tak menghasilkan angka itu. Kapal tenggelam dari lambung secara konsisten di segala arah, sedangkan fatamorgana acak dan bisa dibalik teleskop. GPS pun bukan konvensi: koreksi relativistik dan satelit yang hanya tampak saat di atas cakrawala adalah fakta fisik."
+    },
+    {
+      "n": 9,
+      "side": "datar",
+      "speaker": "Kubu Bumi Datar",
+      "model": "dahono/kimi-k2.8",
+      "text": "Dip diukur terhadap datum alat yang dikalibrasi dengan model bola — asumsinya sudah tertanam di angkanya. Di bidang datar, horizon selalu naik tepat setinggi mata di segala ketinggian; tanpa kalibrasi itu, residunya nol. Begitu pula anomali: pola lintang muncul karena Anda mengurangkan medan acuan bola, lalu sisanya pasti mengikuti bentuk model itu — premis mengesahkan premis. Kapal tenggelam dari lambung yang konsisten arah justru karena lapisan udara di atas laut stabil dan berlapis, bukan fatamorgana acak. GPS pun bergantung pada jam yang dikoreksi manual agar cocok dengan sistem — itu sinkronisasi, bukan bukti fisik satelit."
+    },
+    {
+      "n": 10,
+      "side": "bulat",
+      "speaker": "Kubu Bumi Bulat",
+      "model": "dahono/deepseek-v4.1-flash",
+      "text": "Dip bukan hasil kalibrasi: teodolit mengukur sudut cakrawala terhadap horizontal alat, dan di bidang datar sudut itu nol di semua ketinggian. Faktanya dip tumbuh mengikuti √(2h/R) — itu prediksi yang diuji, bukan angka yang ditanam. Anomali gravitasi diukur dari percepatan absolut, dan pola lintangnya tetap muncul setelah koreksi lokal. Jam GPS dikoreksi dengan angka relativitas yang dihitung sebelum peluncuran; tanpa satelit, tak ada yang perlu disinkronkan. Soal lambung: lapisan stabil membiaskan, tapi tak bisa konsisten menghapus lambung sambil menyisakan tiang di segala cuaca dan arah."
+    },
+    {
+      "n": 11,
+      "side": "datar",
+      "speaker": "Kubu Bumi Datar",
+      "model": "dahono/kimi-k2.8",
+      "text": "Dip tumbuh mengikuti rumus √(2h/R) — tapi tabel koreksi refraksi standar yang dipakai bersama teodolit itu sudah memuat R di dalamnya sebelum satu pengukuran pun dibaca. Anda sendiri mengakui jam GPS dikoreksi dengan angka relativitas yang dihitung sebelum peluncuran; angka yang ditanam lebih dulu lalu \"terbukti cocok\" justru sirkular. Dan soal lambung: jika lapisan stabil di atas laut memang cukup kuat membelokkan cahaya mendatar, menghapus lambung sambil menyisakan tiang justru sesuai — bukan mustahil. Tunjukkan dip terukur dengan alat yang tak mengandaikan R sejak awal, baru itu bukti."
+    },
+    {
+      "n": 12,
+      "side": "bulat",
+      "speaker": "Kubu Bumi Bulat",
+      "model": "dahono/deepseek-v4.1-flash",
+      "text": "Nivo tabung dan unting-untinglah yang menetapkan horizontal pada teodolit — keduanya murni hasil gravitasi lokal, tak memuat R sama sekali. Terhadap acuan itulah dip dibaca; tabel refraksi baru dipakai setelahnya. Dan koreksi refraksi hanya sekitar sepersepuluh nilai dip, tak mungkin memproduksi pola akar dari h di rentang 10 sampai 1000 meter. Uji bebas-asumsi: sekstan dengan cakrawala air raksa, plus nivo, tanpa model bola — dip mentahnya tetap naik mengikuti √(2h/R). Di bidang datar, berapa pun tingginya, dip nol; itu yang tidak terlihat."
+    }
+  ],
+  "models": {
+    "bulat": "dahono/deepseek-v4.1-flash",
+    "datar": "dahono/kimi-k2.8"
+  },
+  "generated_by": "github-actions",
+  "note": "Kedua kubu diperankan AI untuk hiburan/edukasi."
+}
