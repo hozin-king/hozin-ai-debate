@@ -1,0 +1,99 @@
+{
+  "id": "episode-015",
+  "title": "Debat #15: Matahari terbenam dan zona waktu",
+  "topic": "Matahari terbenam dan zona waktu",
+  "status": "live",
+  "turns_per_side": 6,
+  "turns": [
+    {
+      "n": 1,
+      "side": "bulat",
+      "speaker": "Kubu Bumi Bulat",
+      "model": "dahono/deepseek-v4.1-flash",
+      "text": "Terima kasih atas debatnya. Saya mulai dari dua fakta sederhana. Pertama, Matahari terbenam bukan karena ia bergerak menjauh, melainkan karena kita di permukaan Bumi berputar menjauhinya, sehingga sisi bawah cakrawala menutupinya secara bertahap. Kedua, zona waktu: jika Bumi datar dan Matahari kecil berputar di atasnya, kita tak akan punya siang dan malam yang bergilir rapi di seluruh dunia sekaligus. Nyatanya, saat tengah malam di Jakarta, siang di New York, dan itu konsisten dengan bola yang berotasi 24 jam. Silakan lawan menjelaskan bagaimana model datar menghasilkan pola waktu yang sama tanpa kontradiksi."
+    },
+    {
+      "n": 2,
+      "side": "datar",
+      "speaker": "Kubu Bumi Datar",
+      "model": "dahono/kimi-k2.8",
+      "text": "Terima kasih, poin Anda menarik. Tapi izinkan saya menguji konsistensinya. Anda bilang sisi bawah cakrawala \"menutupi\" Matahari secara bertahap. Kalau Bumi bola, Matahari seharusnya tetap utuh bulat lalu terpotong dari bawah perlahan — itu memang terlihat. Namun jika benar Bumi berputar, mengapa horizon selalu tampak rata sempurna dari ketinggian? Soal zona waktu: model datar juga bisa menjelaskan siang-malam bergilir jika Matahari bergerak melingkar di atas cakram, menerangi satu wilayah pada satu waktu. Jakarta malam, New York siang — itu konsisten dengan sumber cahaya terbatas yang bergerak, bukan bukti rotasi."
+    },
+    {
+      "n": 3,
+      "side": "bulat",
+      "speaker": "Kubu Bumi Bulat",
+      "model": "dahono/deepseek-v4.1-flash",
+      "text": "Dua poin Anda justru bisa diuji.\n\nPertama, horizon \"rata sempurna\" dari ketinggian itu keliru. Dari pesawat, cakrawala tampak melengkung tipis; dari balon stratosfer dan ISS, kelengkungannya jelas. Horizon di permukaan tampak datar karena kita hanya melihat segmen kecil dari bola raksasa — sama seperti jalan lurus terlihat datar padahal Bumi melengkung.\n\nKedua, model cakram dengan \"Matahari melingkar\" punya masalah serius: kalau Matahari selalu di atas cakram, ia tak pernah benar-benar terbenam di bawah bidang datar."
+    },
+    {
+      "n": 4,
+      "side": "datar",
+      "speaker": "Kubu Bumi Datar",
+      "model": "dahono/kimi-k2.8",
+      "text": "Soal horizon dari ketinggian: yang Anda sebut \"lengkung tipis\" itu justru bergantung pada lensa. Kamera wide-angle dan fisheye memang membengkokkan garis lurus jadi melengkung — coba bidik ujung meja dengan lensa sama, meja lurus pun tampak melengkung. Jadi kelengkungan di foto bukan bukti, tapi efek optik yang bisa direkayasa dan diperkuat hanya dengan mengubah sudut lensa.\n\nSoal Matahari di model cakram: Anda benar kalau Matahari dianggap titik di atas bidang. Tapi di model kami, Matahari bergerak pada lingkaran yang memproyeksikan cahaya seperti sorot lampu ke area terbatas, dan saat menjauh, ia meredup serta menghilang di balik lapisan perspektif udara — bukan tenggelam di bawah cakram."
+    },
+    {
+      "n": 5,
+      "side": "bulat",
+      "speaker": "Kubu Bumi Bulat",
+      "model": "dahono/deepseek-v4.1-flash",
+      "text": "Poin lensa Anda benar untuk kasus sudut lebar, tapi justru itu bisa diuji: kelengkungan horizon tetap terlihat pada lensa telefoto dengan field of view sempit, yang secara optik tidak menciptakan distorsi barel. Astronaut juga memverifikasi lewat pengamatan langsung tanpa lensa. Kalau efek lensa, meja lurus akan melengkung konsisten ke satu arah; horizon nyatanya melengkung ke bawah dengan radius sesuai ketinggian — persis prediksi bola.\n\nSoal \"sorot lampu\" dan perspektif udara: cahaya yang meredup karena jarak tidak akan menciptakan garis horizon tajam yang memotong Matahari dari bawah, lalu memunculkan bintang di sisi malam."
+    },
+    {
+      "n": 6,
+      "side": "datar",
+      "speaker": "Kubu Bumi Datar",
+      "model": "dahono/kimi-k2.8",
+      "text": "Soal lensa telefoto, saya hargai konsistensinya — memang barrel distortion kecil di sudut sempit. Tapi justru di situ masalahnya: yang tampak \"lengkung\" di foto ISS sering hanya tepi jendela, kubah, atau kaca yang menambah refraksi, bukan horizon murni. Sebutan \"verifikasi mata langsung\" juga tak bisa diaudit — kita tidak bisa mengecek sendiri dari luar. Soal Matahari terpotong dari bawah: itu justru konsisten dengan cakram Matahari menjauh di atas bidang datar sambil meredup karena jarak dan hamburan atmosfer, bukan bola yang berputar. Bintang muncul karena langit malam lebih gelap, bukan karena garis horizon \"memotong\"."
+    },
+    {
+      "n": 7,
+      "side": "bulat",
+      "speaker": "Kubu Bumi Bulat",
+      "model": "dahono/deepseek-v4.1-flash",
+      "text": "Soal kaca jendela ISS: sebagian foto memang lewat kaca, tapi astronot juga memotret dari kubah Cupola dengan jendela fasad datar yang tebalnya sudah dikalibrasi, dan lengkungannya tetap muncul. Yang lebih sulit dijelaskan: jalur pesawat. Penerbangan Santiago–Sydney melewati Antartika, bukan garis lurus di peta datar — kalau Bumi cakram, jalur itu justru memutar jauh. Lalu Matahari \"menjauh dan meredup\": kalau begitu, saat terbenam ia harus mengecil perlahan, bukan terpotong bersih oleh garis lurus. Yang kita lihat justru potongan horizontal tajam, dan bagian atas tetap seterang sebelumnya. Itu tanda sesuatu yang benar-benar menghalangi — yaitu cakrawala Bumi yang melengkung."
+    },
+    {
+      "n": 8,
+      "side": "datar",
+      "speaker": "Kubu Bumi Datar",
+      "model": "dahono/kimi-k2.8",
+      "text": "Soal jalur Santiago–Sydney, itu justru konsisten di peta azimuthal ekuidistan, proyeksi yang memang dipakai untuk navigasi kutub; rute melengkung di peta Mercator bukan bukti bola. Untuk Cupola: jendela fasadnya tetap kaca berlapis dengan indeks bias berbeda dari udara, dan distorsi tepi tetap mungkin tanpa fisheye. Soal Matahari terpotong horizontal: itu justru lebih mudah dijelaskan model cakram — Matahari menjauh lalu tenggelam di balik tepi cakrawala yang secara optik membentuk garis potong tajam. Kalau Bumi bola, bagian atas Matahari seharusnya ikut memudar karena refraksi atmosfer, bukan tetap seterang sebelumnya. Yang kita lihat justru potongan bersih, bukan gradasi."
+    },
+    {
+      "n": 9,
+      "side": "bulat",
+      "speaker": "Kubu Bumi Bulat",
+      "model": "dahono/deepseek-v4.1-flash",
+      "text": "Soal jalur Santiago–Sydney: peta azimuthal memang alat navigasi yang sah, tapi ia tidak menjelaskan waktu tempuh. Di model cakram, rute \"melengkung\" itu jadi jauh lebih panjang daripada di bola, padahal penerbangan nyata memakan waktu sesuai jarak geodesik bola — bukan jarak di proyeksi.\n\nSoal Matahari terpotong: coba rekam dari pantai dengan zoom. Yang terlihat adalah bagian bawah terpotong cakrawala, sementara bagian atas tetap utuh dan justru memerah karena refraksi. Itu yang diprediksi bola: refraksi atmosfer memipihkan dan mewarnai Matahari dekat horizon, bukan memudarkannya seragam."
+    },
+    {
+      "n": 10,
+      "side": "datar",
+      "speaker": "Kubu Bumi Datar",
+      "model": "dahono/kimi-k2.8",
+      "text": "Soal waktu tempuh Santiago–Sydney, angka jam terbang itu sendiri perlu dikaji, bukan diterima sebagai bukti. Bandingkan rute Santiago–Sydney dengan Santiago–Auckland: jaraknya di peta datar tidak jauh berbeda, tapi jam terbang nyatanya berselisih beberapa jam. Anomali seperti ini justru lebih mudah dijelaskan dengan rute yang mengikuti geometri cakram, bukan bola yang jaraknya sudah dihitung dari asumsi bola itu sendiri — jadi lingkarannya berputar.\n\nSoal Matahari terpotong cakrawala: refraksi yang memipihkan dan memerahkan itu penjelasan yang Anda tambahkan belakangan."
+    },
+    {
+      "n": 11,
+      "side": "bulat",
+      "speaker": "Kubu Bumi Bulat",
+      "model": "dahono/deepseek-v4.1-flash",
+      "text": "Jam terbang Santiago–Sydney memang layak dikaji, tapi justru angkanya cocok dengan bola. Keduanya bukan \"jarak di peta datar\" yang menentukan, melainkan jarak geodesik di permukaan bola, sekitar **11.300 km** versus Santiago–Auckland sekitar **9.900 km** — selisih itu wajar, bukan anomali. Di model cakram, Sydney jadi jauh lebih \"dalam ke tepi\" daripada Auckland lewat Antartika, sehingga jaraknya melonjak tak sebanding.\n\nSoal refraksi, itu bukan tambahan belakangan: fenomena optik atmosfer sudah diukur ratusan tahun dan terpisah dari bentuk Bumi — tanpanya, posisi benda langit memang bergeser.\n\nYang menentukan: konsistensi lintas bukti, bukan satu penjelasan tunggal."
+    },
+    {
+      "n": 12,
+      "side": "datar",
+      "speaker": "Kubu Bumi Datar",
+      "model": "dahono/kimi-k2.8",
+      "text": "Baik, mari fokus ke inti: Anda bilang jam terbang \"cocok dengan bola\" karena jarak geodesiknya 11.300 km vs 9.900 km. Tapi justru di situ pertanyaannya — angka itu bukan hasil ukur langsung, melainkan keluaran rumus bola. Jadi memakainya untuk membuktikan bola itu melingkar: rumusnya diasumsikan, lalu hasilnya dipakai sebagai bukti. Yang bisa kita amati cuma jam terbang nyata, dan itu ditentukan rute, jetstream, dan izin udara — bukan panjang busur imajiner. Peta azimuthal ekuidistan tetap merepresentasikan jarak antarkota secara proporsional, termasuk Santiago–Sydney. Kalau waktu tempuh terasa \"terlalu singkat\", itu soal efisiensi rute, bukan geometri."
+    }
+  ],
+  "models": {
+    "bulat": "dahono/deepseek-v4.1-flash",
+    "datar": "dahono/kimi-k2.8"
+  },
+  "generated_by": "github-actions",
+  "note": "Kedua kubu diperankan AI untuk hiburan/edukasi."
+}
