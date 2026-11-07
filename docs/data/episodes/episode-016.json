@@ -1,0 +1,99 @@
+{
+  "id": "episode-016",
+  "title": "Debat #16: Bintang yang terlihat berbeda di belahan bumi utara dan selatan",
+  "topic": "Bintang yang terlihat berbeda di belahan bumi utara dan selatan",
+  "status": "live",
+  "turns_per_side": 6,
+  "turns": [
+    {
+      "n": 1,
+      "side": "datar",
+      "speaker": "Kubu Bumi Datar",
+      "model": "dahono/kimi-k2.8",
+      "text": "Terima kasih atas kesempatan membuka debat. Fakta bahwa rasi bintang di utara dan selatan tampak berbeda memang nyata, tapi kesimpulan bahwa itu membuktikan bola besar bukan satu-satunya penjelasan. Pada model datar, langit bisa dipahami sebagai kubah atau cakram langit yang berputar di atas bidang datar. Pengamat di wilayah berbeda melihat bagian langit yang berbeda karena posisi dan sudut pandang mereka terhadap pusat rotasi langit itu. Sama seperti Anda berdiri di sisi berbeda sebuah ruangan, Anda melihat bagian lampu yang berbeda. Jadi perbedaan rasi bukan bukti mutlak bentuk bola; itu bisa dijelaskan oleh geometri pandangan terhadap langit yang berputar. Saya tunggu argumen Anda."
+    },
+    {
+      "n": 2,
+      "side": "bulat",
+      "speaker": "Kubu Bumi Bulat",
+      "model": "dahono/deepseek-v4.1-flash",
+      "text": "Terima kasih, argumen Anda masuk akal pada permukaannya, tapi ada masalah geometris yang sulit dijelaskan model kubah. Analogy ruangan dan lampu justru membantu saya: kalau langit adalah kubah berputar di atas bidang datar, dua pengamat yang jaraknya, misalnya, **10.000 km** seharusnya masih bisa melihat sebagian besar bintang yang sama, hanya bergeser sudut pandang. Kenyataannya, pengamat di lintang utara dan selatan melihat pusat rotasi langit yang **berlawanan arah** — Polaris di utara, sedangkan di selatan ada titik setara di sekitar Sigma Octantis, dan bintang-bintang di antaranya berputar searah jarum jam versus berlawanan."
+    },
+    {
+      "n": 3,
+      "side": "datar",
+      "speaker": "Kubu Bumi Datar",
+      "model": "dahono/kimi-k2.8",
+      "text": "Poin Anda tentang Polaris dan Sigma Octantis justru bisa dijelaskan dalam model kubah ganda: bidang datar tidak harus punya satu pusat rotasi langit. Bayangkan dua pusat vorteks berbeda — utara dan selatan — masing-masing dengan pusat rotasi sendiri. Pengamat di lintang atas terhubung ke pusat utara, pengamat selatan ke pusat selatan, sehingga arah putaran tampak berlawanan tanpa perlu bola.\n\nSoal bintang yang seharusnya sama pada jarak 10.000 km: itu hanya berlaku jika langit dianggap satu kubah kaku yang sama. Dalam model kubah terpisah atau berlapis, tiap wilayah punya proyeksi langit sendiri, jadi bukan masalah geometri selama asumsi \"satu kubah tunggal\" tidak dipaksakan."
+    },
+    {
+      "n": 4,
+      "side": "bulat",
+      "speaker": "Kubu Bumi Bulat",
+      "model": "dahono/deepseek-v4.1-flash",
+      "text": "Model kubah ganda Anda menyelamatkan dua kutub langit, tapi memunculkan masalah baru: pengamat di ekuator, misalnya di Pontianak, secara geometris \"terhubung\" ke kedua pusat itu sekaligus. Ia seharusnya melihat Polaris rendah di utara **dan** Sigma Octantis rendah di selatan pada malam yang sama. Itu memang terjadi pada Bumi bulat. Tapi kubah ganda menuntut satu pengamat punya dua proyeksi langit berbeda dari satu titik, sementara kedua kubah harus bertemu di cakrawala yang sama tanpa celah atau tumpang tindih.\n\nModel bersepuh seperti ini bisa dibuat, tapi setiap tambalan menambah asumsi yang tidak bisa diuji. Sementara satu bola berotasi menjelaskan semuanya dengan satu parameter."
+    },
+    {
+      "n": 5,
+      "side": "datar",
+      "speaker": "Kubu Bumi Datar",
+      "model": "dahono/kimi-k2.8",
+      "text": "Poin Anda soal Pontianak justru menarik: pengamat di ekuator memang seharusnya melihat kedua kutub langit rendah di dua arah berlawanan. Dalam model kubah ganda, itu bukan masalah — pengamat di ekuator berada di garis transisi, wilayah tempat dua kubah bertemu. Ia melihat Polaris rendah di utara dan Sigma Octantis rendah di selatan justru karena ia berada di persimpangan dua proyeksi, bukan karena Bumi melengkung.\n\nSoal \"dua proyeksi dari satu titik\": itu hanya terasa aneh jika kita mengasumsikan langit adalah satu bola tunggal. Jika langit adalah dua struktur terpisah yang berbagi garis cakrawala, satu pengamat memang bisa melihat dua pusat berbeda sekaligus."
+    },
+    {
+      "n": 6,
+      "side": "bulat",
+      "speaker": "Kubu Bumi Bulat",
+      "model": "dahono/deepseek-v4.1-flash",
+      "text": "Model kubah ganda Anda memang terlihat luwes, tapi justru di situ masalahnya: setiap anomali bisa \"diselamatkan\" dengan menambah struktur baru tanpa batas. Itu tanda model yang tidak bisa disalahkan, bukan model yang menjelaskan.\n\nPoin konkretnya: jika Pontianak berada di \"garis transisi\" dua kubah, apa yang seharusnya terlihat tepat di atas kepala pengamat? Dua proyeksi berbeda bertemu berarti ada garis jahitan di langit — diskontinuitas posisi bintang."
+    },
+    {
+      "n": 7,
+      "side": "datar",
+      "speaker": "Kubu Bumi Datar",
+      "model": "dahono/kimi-k2.8",
+      "text": "Soal \"garis jahitan\" itu justru pertanyaan bagus, dan jawabannya: tidak harus ada garis tajam. Dalam model kubah ganda, transisi antarkubah bisa beririsan secara halus — seperti dua gelombang yang bertemu dan saling melemahkan, bukan dua peta yang ditempel. Pengamat di Pontianak melihat bintang bergeser perlahan mengikuti dominasi kubah terdekat, dan pada sudut tertentu kedua pengaruh saling meniadakan, sehingga tidak ada lompatan posisi mendadak.\n\nSoal \"model yang tidak bisa disalahkan\" — itu justru berlaku pada model bola juga. Setiap anomali seperti pembiasan atmosfer, paralaks, aberasi, semuanya \"diselamatkan\" dengan koreksi tambahan."
+    },
+    {
+      "n": 8,
+      "side": "bulat",
+      "speaker": "Kubu Bumi Bulat",
+      "model": "dahono/deepseek-v4.1-flash",
+      "text": "Poin Anda soal transisi halus antar-kubah justru memperkuat keberatan saya: jika dua pengaruh bisa saling meniadakan di suatu sudut, di tempat lain keduanya bisa saling memperkuat, sehingga bintang seharusnya tampak berlipat atau bergerak ganda bagi pengamat di ekuator — dan itu tidak pernah teramati. Bandingkan dengan bola: pembiasan, paralaks, dan aberasi bukan tambalan bebas, melainkan koreksi terukur dengan nilai yang bisa diprediksi dan diuji. Bola meramalkan besarnya koreksi sebelum pengamatan; kubah ganda menambah struktur setelah anomali muncul. Perbedaan inilah yang membedakan model yang bisa gagal dari model yang selalu benar."
+    },
+    {
+      "n": 9,
+      "side": "datar",
+      "speaker": "Kubu Bumi Datar",
+      "model": "dahono/kimi-k2.8",
+      "text": "Soal \"bintang berlipat\" di ekuator, sebenarnya tidak harus terjadi. Dua vorteks di utara dan selatan tidak bekerja seperti dua lampu yang menyorot satu titik, melainkan seperti dua arus yang mengalir berdampingan. Di garis pertemuan, bintang bisa tampak tunggal karena arah cahayanya sejajar, bukan saling menguatkan. Jadi \"ganda\" hanya muncul jika kita paksakan keduanya seperti proyeksi paralaks bola.\n\nDan soal \"koreksi diramalkan sebelum diamati\": itu justru keunggulan klaim Anda, bukan bukti."
+    },
+    {
+      "n": 10,
+      "side": "bulat",
+      "speaker": "Kubu Bumi Bulat",
+      "model": "dahono/deepseek-v4.1-flash",
+      "text": "Penjelasan \"dua arus sejajar\" tidak menyelesaikan masalahnya: dua kutub langit di utara dan selatan itu terpisah 180 derajat, bukan berdekatan. Pengamat di Pontianak seharusnya melihat Polaris rendah di utara sekaligus kutub selatan rendah di selatan — itu fakta pengamatan, bukan proyeksi paralaks. Anda juga mengakui model bisa \"dihaluskan\" dengan struktur baru tanpa batas; di situlah kelemahannya, karena model yang selalu bisa diselamatkan tidak bisa diuji. Sebaliknya, bola pepat memprediksi panjang bayangan, arah kutub, dan waktu terbit yang cocok dengan pengamatan nyata."
+    },
+    {
+      "n": 11,
+      "side": "datar",
+      "speaker": "Kubu Bumi Datar",
+      "model": "dahono/kimi-k2.8",
+      "text": "Kritik Anda soal \"model yang selalu bisa diselamatkan\" adil, dan itu memang kelemahan tiap model, termasuk bola pepat yang dulu dipaksa sempurna lalu ditambal jadi pepat. Soal Pontianak, saya justru mengakui pengamat di sana melihat dua pusat putaran bintang rendah di utara dan selatan — tepat seperti yang dilaporkan pelaut. Bedanya, dalam kubah ganda itu bukan dua kutub bola, melainkan dua pusat arus yang beririsan di garis ekuator; bukan saya menambah struktur, itu sudah konsekuensi geometri kubah. Anda bilang model saya tak bisa diuji — lalu apa uji yang membedakannya dari bola? Panjang bayangan cocok di keduanya."
+    },
+    {
+      "n": 12,
+      "side": "bulat",
+      "speaker": "Kubu Bumi Bulat",
+      "model": "dahono/deepseek-v4.1-flash",
+      "text": "Soal uji pembeda: ada, dan justru itu inti masalahnya. Ambil satu teodolit di Pontianak. Di model bola, sudut ke Polaris naik linear terhadap jarak yang kamu tempuh ke utara — phi = lintang. Di model kubah ganda, dengan dua pusat arus beririsan di ekuator, geometri proyeksi memaksa sudut elevasi naik non-linear: mula-mula lambat, lalu cepat, atau sebaliknya, tergantung arah arus. Keduanya memprediksi angka berbeda di lintang menengah.\n\nItu uji yang bisa memisahkan — dan hasilnya sudah lama diketahui: pengukuran meridian, dari Eratosthenes sampai survei geodesi modern, konsisten linear seperti bola."
+    }
+  ],
+  "models": {
+    "bulat": "dahono/deepseek-v4.1-flash",
+    "datar": "dahono/kimi-k2.8"
+  },
+  "generated_by": "github-actions",
+  "note": "Kedua kubu diperankan AI untuk hiburan/edukasi."
+}
