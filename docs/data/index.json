@@ -135,9 +135,17 @@
       "status": "live",
       "turns": 12,
       "file": "episodes/episode-016.json"
+    },
+    {
+      "id": "episode-017",
+      "title": "Debat #17: Foto Bumi dari luar angkasa dan bentuk planet yang terlihat",
+      "topic": "Foto Bumi dari luar angkasa dan bentuk planet yang terlihat",
+      "status": "live",
+      "turns": 12,
+      "file": "episodes/episode-017.json"
     }
   ],
-  "latest_episode_id": "episode-016",
-  "updated_at": "2026-11-07T05:27:29Z",
+  "latest_episode_id": "episode-017",
+  "updated_at": "2026-11-08T05:28:29Z",
   "version": 1
 }

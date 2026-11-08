@@ -1,0 +1,99 @@
+{
+  "id": "episode-017",
+  "title": "Debat #17: Foto Bumi dari luar angkasa dan bentuk planet yang terlihat",
+  "topic": "Foto Bumi dari luar angkasa dan bentuk planet yang terlihat",
+  "status": "live",
+  "turns_per_side": 6,
+  "turns": [
+    {
+      "n": 1,
+      "side": "bulat",
+      "speaker": "Kubu Bumi Bulat",
+      "model": "dahono/deepseek-v4.1-flash",
+      "text": "Saya dari Kubu Bumi Bulat. Bukti paling langsung adalah foto Bumi dari luar angkasa: Blue Marble (Apollo 17), citra satelit cuaca, dan rekaman ISS. Dari ketinggian orbit, horizon Bumi tampak melengkung konsisten, dan saat kamera menjauh, seluruh planet terlihat sebagai bola pepat—diameter ekuator lebih besar daripada kutub, persis prediksi rotasi. Ribuan citra dari misi berbeda, negara berbeda, dan waktu berbeda saling menguatkan; tidak ada satu pun yang menunjukkan tepi datar atau cakram. Silakan lawan menjelaskan bagaimana konsistensi itu bisa terjadi jika Bumi datar."
+    },
+    {
+      "n": 2,
+      "side": "datar",
+      "speaker": "Kubu Bumi Datar",
+      "model": "dahono/kimi-k2.8",
+      "text": "Konsistensi citra tidak otomatis membuktikan kebenaran; ia bisa berasal dari sumber, perangkat lunak, atau protokol pengolahan yang sama. Banyak foto 'luar angkasa' menggunakan lensa sudut lebar yang mendistorsi horizon menjadi melengkung, sementara rekaman balon stratosfer dengan lensa normal justru menunjukkan horizon datar. Prediksi pepat ekuator juga merupakan konsekuensi model, bukan pengamatan independen; citra bisa disesuaikan dengan model itu. Jadi, keseragaman lebih mencerminkan koordinasi naratif ketimbang observasi mandiri."
+    },
+    {
+      "n": 3,
+      "side": "bulat",
+      "speaker": "Kubu Bumi Bulat",
+      "model": "dahono/deepseek-v4.1-flash",
+      "text": "Keseragaman citra memang bukan bukti tunggal, tetapi argumen Anda mengabaikan bahwa kelengkungan horizon juga terukur dari lensa normal di ketinggian cukup (mis. balon stratosfer >30 km) setelah koreksi distorsi. Selain foto, ada bukti independen: kapal hilang hull-first, rasi bintang berbeda menurut lintang, GPS butuh model bulat pepat, dan geodesi satelit (SLR, altimetri) mengukur pepat ekuator sebelum era citra. Jadi bukan koordinasi naratif, melainkan konvergensi metode yang saling bebas."
+    },
+    {
+      "n": 4,
+      "side": "datar",
+      "speaker": "Kubu Bumi Datar",
+      "model": "dahono/kimi-k2.8",
+      "text": "Klaim lensa normal tetap bergantung koreksi yang sudah mengasumsikan bola; tanpa itu, horizon balon justru sering tampak rata. Kapal \"hilang hull-first\" bisa dijelaskan resolusi, gelombang, dan batas pandang. Rasi bintang yang bergeser menurut lintang cocok dengan langit lokal di atas bidang datar. GPS berjalan lewat jaringan darat dan jam; model bulat pepat hanyalah perangkat lunak. Geodesi satelit pun mengukur jarak lalu menafsirkannya lewat ellipsoid yang diasumsikan, jadi bukan bukti independen. Konvergensi metode bisa terjadi karena semua bertumpu pada asumsi awal yang sama."
+    },
+    {
+      "n": 5,
+      "side": "bulat",
+      "speaker": "Kubu Bumi Bulat",
+      "model": "dahono/deepseek-v4.1-flash",
+      "text": "Poin \"asumsi awal yang sama\" justru bisa diuji: kalau model bulat salah, prediksi terukur akan gagal. Koreksi lensa tidak perlu mengasumsikan bola — kalibrasi dilakukan dengan grid datar di laboratorium, lalu diterapkan ke citra. Untuk kapal, geometri geometri: pada ketinggian pengamat tetap, bagian bawah menghilang lebih dulu pada jarak yang persis dihitung radius ~6.371 km; gelombang tidak memotong lambung secara konsisten berulang. Rasi bintang bergeser hingga Polaris tenggelam di selatan — itu sudut lintang nyata, bukan langit lokal di bidang datar."
+    },
+    {
+      "n": 6,
+      "side": "datar",
+      "speaker": "Kubu Bumi Datar",
+      "model": "dahono/kimi-k2.8",
+      "text": "Kalibrasi grid datar hanya mengukur distorsi lensa, bukan membuktikan bentuk Bumi. Setelah dikoreksi, penafsiran horizon tetap bergantung pada asumsi proyeksi bola. Kapal \"hilang lambung dulu\" bisa dijelaskan batas resolusi, gelombang, dan perspektif; pada kondisi tenang pun tidak selalu konsisten. Polaris yang tampak tenggelam dapat dijelaskan geometri langit lokal dan refraksi atmosfer, bukan otomatis lintang bola. Prediksi yang Anda sebut terukur tetap dihasilkan dari model yang sama, jadi belum uji bebas asumsi. Uji yang adil: mana bukti langsung, tanpa model, bahwa air melengkung? Saya menunggu jawaban yang tidak mengulang asumsi awal."
+    },
+    {
+      "n": 7,
+      "side": "bulat",
+      "speaker": "Kubu Bumi Bulat",
+      "model": "dahono/deepseek-v4.1-flash",
+      "text": "Tidak ada bukti \"tanpa model\" karena semua pengamatan butuh kerangka. Tapi uji bebas asumsi bisa dilakukan: ukur sudut depresi horizon dari ketinggian dengan teodolit. Di Bumi datar, horizon harus tepat 0°. Hasil ukur selalu negatif dan makin besar seiring ketinggian—ini pengamatan langsung, bukan asumsi. Jika air datar, kapal yang hilang karena resolusi akan muncul kembali dengan zoom kuat; faktanya tidak, karena bagian bawah terhalang lengkungan. Jadi, bukti empirisnya adalah horizon yang terukur turun, bukan sekadar model."
+    },
+    {
+      "n": 8,
+      "side": "datar",
+      "speaker": "Kubu Bumi Datar",
+      "model": "dahono/kimi-k2.8",
+      "text": "Sudut depresi negatif dari teodolit bukan bukti langsung lengkungan, melainkan sudut ke horizon visual—batas pandang akibat atenuasi atmosfer. Di bidang datar, garis pandang ke permukaan yang makin jauh melewati lebih banyak udara, sehingga bagian bawah memudar lebih dulu. Itu sebabnya kapal tampak \"hilang lambung dulu\", bukan karena terhalang bola. Zoom kuat tak selalu memunculkan kembali karena refraksi dan scattering tetap ada. Jadi pengukuran Anda mengasumsikan horizon adalah tepi geometris tajam, padahal itu tepi optis yang bergantung pada kondisi atmosfer."
+    },
+    {
+      "n": 9,
+      "side": "bulat",
+      "speaker": "Kubu Bumi Bulat",
+      "model": "dahono/deepseek-v4.1-flash",
+      "text": "Atmosfer memang mengaburkan, tapi tidak menciptakan sudut depresi negatif yang konsisten. Jika horizon cuma tepi optis, nilainya tak akan terikat geometri; nyatanya dip berubah teratur dengan ketinggian, mendekati sqrt(2h/R). Refraksi menggeser sedikit, tidak menghapus pola itu. Kapal \"hilang lambung dulu\" juga bukan sekadar memudar: dengan zoom memadai, bagian yang terhalang tidak muncul kembali, sedangkan atenuasi bisa ditingkatkan kontrasnya. Jadi horizon optis tetap tunduk pada lengkungan."
+    },
+    {
+      "n": 10,
+      "side": "datar",
+      "speaker": "Kubu Bumi Datar",
+      "model": "dahono/kimi-k2.8",
+      "text": "Rumus dip √(2h/R) sudah menyelipkan asumsi jari-jari bola; pola teratur itu bukan bukti independen. Di bidang datar, horizon visual adalah batas pandang: makin tinggi, garis pandang ke permukaan jauh makin panjang, lalu atenuasi atmosfer memotongnya pada sudut yang tampak \"turun\" teratur. Jadi dip bisa lahir dari geometri pandang plus kabut, bukan kelengkungan. Soal kapal, zoom tak memunculkan lambung karena gelombang dan batas kontras—bukan karena tertutup bola. Refraksi juga menggeser, bukan menghapus. Horizon tetap konsisten dengan permukaan datar."
+    },
+    {
+      "n": 11,
+      "side": "bulat",
+      "speaker": "Kubu Bumi Bulat",
+      "model": "dahono/deepseek-v4.1-flash",
+      "text": "Formula dip memang mengandung R, tapi yang diuji bukan rumusnya, melainkan data: sudut depresi horizon berubah teratur dengan ketinggian. Kalau horizon cuma batas pandang akibat kabut, nilainya akan bergantung cuaca dan kontras, bukan konsisten mengikuti geometri. Atenuasi membuat horizon kabur, tetapi tidak menciptakan sudut depresi negatif yang terukur dari teodolit. Soal kapal, gelombang dan kontras tidak menjelaskan mengapa lambung hilang lebih dulu sementara tiang masih terlihat, lalu lambung muncul lagi saat pengamat naik. Refraksi bisa menggeser posisi, tetapi tidak menghapus bagian bawah secara sistematis."
+    },
+    {
+      "n": 12,
+      "side": "datar",
+      "speaker": "Kubu Bumi Datar",
+      "model": "dahono/kimi-k2.8",
+      "text": "Terima kasih. Sudut depresi teratur bisa muncul dari gradien densitas atmosfer, bukan hanya kabut. Refraksi vertikal menggeser garis pandang sehingga horizon visual tampak di bawah horizontal, dan efeknya terikat ketinggian karena lintasan cahaya makin panjang. Konsistensi dengan √(2h/R) bisa jadi kecocokan empiris dari profil atmosfer eksponensial. Soal kapal: gelombang dan kontras memang tidak menghapus, tetapi mirage inferior dapat menekan bayangan lambung, sementara tiang lebih tinggi kurang terpengaruh. Saat pengamat naik, horizon visual bergeser dan lambung muncul lagi. Jadi data itu konsisten dengan bidang datar ber-atmosfer, bukan bukti langsung bola."
+    }
+  ],
+  "models": {
+    "bulat": "dahono/deepseek-v4.1-flash",
+    "datar": "dahono/kimi-k2.8"
+  },
+  "generated_by": "github-actions",
+  "note": "Kedua kubu diperankan AI untuk hiburan/edukasi."
+}
