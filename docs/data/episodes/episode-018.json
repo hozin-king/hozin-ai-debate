@@ -1,0 +1,99 @@
+{
+  "id": "episode-018",
+  "title": "Debat #18: Bayangan Bumi saat gerhana bulan",
+  "topic": "Bayangan Bumi saat gerhana bulan",
+  "status": "live",
+  "turns_per_side": 6,
+  "turns": [
+    {
+      "n": 1,
+      "side": "datar",
+      "speaker": "Kubu Bumi Datar",
+      "model": "dahono/kimi-k2.8",
+      "text": "Terima kasih. Saya mulai dengan satu pertanyaan sederhana: mengapa bayangan saat gerhana bulan selalu tampak bundar? Justru itu bisa dijelaskan oleh cakram datar yang menghadap bulan secara tegak lurus. Jika Bumi bulat, bentuk bayangannya semestinya berubah-ubah tergantung sudut datang cahaya matahari. Lagi pula, kita tidak pernah melihat bayangan itu secara langsung; yang kita lihat hanyalah bulan yang menggelap perlahan. Bisa jadi itu bayangan objek lain, bukan Bumi. Tambahan lagi, air selalu mencari permukaan datar dan horizon tak pernah kita lihat melengkung. Jadi klaim bahwa gerhana bulan membuktikan Bumi bulat hanyalah tafsir, bukan bukti langsung."
+    },
+    {
+      "n": 2,
+      "side": "bulat",
+      "speaker": "Kubu Bumi Bulat",
+      "model": "dahono/deepseek-v4.1-flash",
+      "text": "Terima kasih. Bayangan selalu bundar justru karena Bumi bola: dari sudut mana pun, proyeksinya lingkaran. Cakram datar hanya memberi bayangan bundar jika tegak lurus terus-menerus; namun Bumi berotasi dan mengorbit, sudut Matahari-Bumi-Bulan berubah tiap gerhana, sehingga cakram akan sering tampak elips. Faktanya, tepi bayangan pada gerhana parsial selalu berupa **busur lingkaran**. Objek lain? Tidak ada benda langit lain yang berada tepat di antara Matahari dan Bulan selain Bumi. Air mencari datar hanya pada skala lokal; di laut luas, permukaan melengkung mengikuti geoid, dan kapal hilang dari bawah saat menjauh. Horizon dari ketinggian juga melengkung."
+    },
+    {
+      "n": 3,
+      "side": "datar",
+      "speaker": "Kubu Bumi Datar",
+      "model": "dahono/kimi-k2.8",
+      "text": "Terima kasih. Soal bayangan: Anda mengasumsikan cakram harus tegak lurus terus-menerus. Tapi dalam pandangan ini, Matahari dan Bulan bergerak di atas cakram, dan saat gerhana, posisi relatifnya membuat cakram tepat menghadap Bulan — bukan kebetulan, melainkan geometri yang konsisten. Tepi bayangan yang selalu busur lingkaran justru lebih mudah dijelaskan oleh sumber cahaya besar dan jauh. Soal air dan horizon: yang Anda sebut lengkungan adalah efek perspektif dan refraksi; kapal hilang dari bawah karena jarak, bukan kelengkungan. Horizon dari ketinggian tetap datar."
+    },
+    {
+      "n": 4,
+      "side": "bulat",
+      "speaker": "Kubu Bumi Bulat",
+      "model": "dahono/deepseek-v4.1-flash",
+      "text": "Terima kasih. Soal bayangan: sumber cahaya besar dan jauh hanya memperlebar penumbra; bentuk inti bayangan (umbra) tetap mengikuti bentuk objek. Jika Bumi cakram datar dan menghadap Bulan saat gerhana, Matahari ada di arah berlawanan, sehingga cahaya datang dari tepi — bayangan jadi tipis, bukan bulat. Bulatnya bayangan justru konsisten dengan bola: proyeksi lingkaran dari sudut mana pun. Soal horizon: perspektif tidak membuat bagian bawah kapal hilang lebih dulu secara sistematis; refraksi hanya efek lokal. Dari ketinggian, horizon turun di bawah level mata dan kelengkungan terlihat. Ini bukti kuat Bumi bulat."
+    },
+    {
+      "n": 5,
+      "side": "datar",
+      "speaker": "Kubu Bumi Datar",
+      "model": "dahono/kimi-k2.8",
+      "text": "Terima kasih. Soal bayangan: Anda salah memahami geometri. Jika cakram tegak lurus garis Matahari–Bulan, seluruh permukaan cakram menghadap Matahari, bukan dari tepi. Umbra yang terbentuk tetap lingkaran. Jadi bayangan bundar tidak hanya milik bola. Soal horizon: hilangnya bagian bawah kapal lebih dulu adalah efek perspektif—bagian bawah mencapai titik hilang lebih awal. Dari ketinggian, horizon tetap di level mata, tidak turun seperti prediksi bola. Refraksi dan kabut cukup menjelaskan ilusi kelengkungan."
+    },
+    {
+      "n": 6,
+      "side": "bulat",
+      "speaker": "Kubu Bumi Bulat",
+      "model": "dahono/deepseek-v4.1-flash",
+      "text": "Terima kasih. Soal bayangan: cakram datar hanya memberi umbra lingkaran jika tepat tegak lurus. Namun selama gerhana, Bulan bisa berada di utara atau selatan ekliptika, sehingga sudut cakram berubah. Itu akan membuat umbra elips, tapi faktanya selalu lingkaran. Bola menjelaskannya tanpa syarat. Soal horizon: perspektif membuat seluruh kapal mengecil, bukan hanya bagian bawah hilang duluan. Dari ketinggian, horizon turun di bawah level mata, sesuai prediksi bola. Refraksi hanya efek lokal, tidak sistematis. GPS dan satelit konsisten dengan Bumi bulat."
+    },
+    {
+      "n": 7,
+      "side": "datar",
+      "speaker": "Kubu Bumi Datar",
+      "model": "dahono/kimi-k2.8",
+      "text": "Terima kasih. Soal bayangan, Anda menganggap orientasi cakram tetap. Dalam model ini, Matahari dan Bulan bergerak di atas cakram, dan selama gerhana cakram selalu menghadap garis Matahari–Bulan, sehingga umbra tetap lingkaran meski Bulan di utara atau selatan ekliptika. Soal horizon, kapal mengecil lalu hilang dari bawah bukan karena lengkungan, tetapi karena gelombang dan refraksi atmosfer yang sistematis di dekat horizon. Dari ketinggian, horizon tampak turun karena pembiasan cahaya, bukan karena bola. GPS pun bisa dijelaskan lewat menara darat dan stratosfer. Jadi semua tetap konsisten dengan cakram datar."
+    },
+    {
+      "n": 8,
+      "side": "bulat",
+      "speaker": "Kubu Bumi Bulat",
+      "model": "dahono/deepseek-v4.1-flash",
+      "text": "Terima kasih. Klaim cakram selalu menghadap garis Matahari–Bulan mengabaikan geometri: agar umbra tetap lingkaran, seluruh cakram harus berputar mengikuti Bulan, padahal arah Matahari dan Bulan berbeda. Pada gerhana bulan, bayangan Bumi selalu lingkaran di posisi Bulan mana pun—cakram miring akan memberi elips. Soal horizon: refraksi maksimal 0,5°, tak bisa membuat kapal hilang dari bawah secara sistematis; gelombang justru mengacak. Dari 10 km, dip horizon ~3,2°, persis bola. GPS: menara darat tak menjangkau samudra dan kutub; satelitlah yang memberi sinyal dengan koreksi relativistik. Semua bukti menunjuk bola pepat."
+    },
+    {
+      "n": 9,
+      "side": "datar",
+      "speaker": "Kubu Bumi Datar",
+      "model": "dahono/kimi-k2.8",
+      "text": "Terima kasih. Anda mengulang asumsi cakram kaku. Dalam model ini, orientasi bidang bayangan ditentukan posisi Matahari dan Bulan yang bergerak di atas cakram, bukan rotasi fisik seluruh cakram; karena itu umbra bisa tetap lingkaran meski arah keduanya berbeda. Soal horizon, refraksi 0,5° bukan satu-satunya faktor: gelombang dan perspektif membuat kapal tampak tenggelam dari bawah secara sistematis pada jarak tertentu. Dip 3,2° di 10 km bisa dihitung dari geometri datar dengan koreksi refraksi. GPS: trilaterasi darat, kabel laut, jam atom cukup; satelit hanya narasi."
+    },
+    {
+      "n": 10,
+      "side": "bulat",
+      "speaker": "Kubu Bumi Bulat",
+      "model": "dahono/deepseek-v4.1-flash",
+      "text": "Terima kasih. Soal bayangan: jika orientasi bidang ditentukan posisi Matahari dan Bulan, agar umbra tetap lingkaran, cakram harus berubah orientasi mengikuti garis Matahari–Bulan. Itu rotasi fisik, bukan sekadar efek posisi. Soal horizon: perspektif tidak membuat kapal tenggelam dari bawah; benda menjauh hanya mengecil. Gelombang bisa menutupi, tapi pola sistematis lebih cocok dengan kelengkungan. Dip 3,2° di 10 km justru bukti Bumi bulat; geometri datar butuh refraksi tak realistis. GPS: trilaterasi darat butuh ribuan menara di laut; satelit dengan jam atom memberi sinyal waktu yang tak tergantikan. Kabel laut hanya data, bukan posisi."
+    },
+    {
+      "n": 11,
+      "side": "datar",
+      "speaker": "Kubu Bumi Datar",
+      "model": "dahono/kimi-k2.8",
+      "text": "Terima kasih. Soal bayangan: rotasi fisik tidak perlu. Umbra tetap lingkaran karena cahaya Matahari yang mengenai Bulan membentuk kerucut; selama gerhana, geometri kerucut itu konsisten dengan cakram diam, asalkan sudut datang cahaya berubah. Soal horizon: kapal tenggelam dari bawah karena gelombang dan batas perspektif, bukan kelengkungan. Dip 3,2° bisa dari refraksi atmosfer tak seragam. GPS: jam atom bisa di menara darat; trilaterasi darat cukup dengan menara di pesisir dan pulau."
+    },
+    {
+      "n": 12,
+      "side": "bulat",
+      "speaker": "Kubu Bumi Bulat",
+      "model": "dahono/deepseek-v4.1-flash",
+      "text": "Soal bayangan: gerhana bulan adalah bayangan Bumi pada Bulan. Bumi bulat selalu memberi umbra lingkaran dari sudut mana pun. Bumi datar hanya memberi lingkaran jika tepat tegak lurus garis Matahari-Bumi. Selama gerhana, Bulan bisa di utara/selatan ekliptika, sudut berubah; umbra akan elips. Fakta umbra selalu lingkaran justru bukti Bumi bulat. Soal horizon: kapal hilang dari bawah bukan karena gelombang; gelombang tak menghilangkan lambung konsisten. Perspektif tak membalik urutan. Dip 3,2° dari kelengkungan; refraksi hanya variasi kecil. GPS butuh satelit; menara darat tak jangkau samudra."
+    }
+  ],
+  "models": {
+    "bulat": "dahono/deepseek-v4.1-flash",
+    "datar": "dahono/kimi-k2.8"
+  },
+  "generated_by": "github-actions",
+  "note": "Kedua kubu diperankan AI untuk hiburan/edukasi."
+}

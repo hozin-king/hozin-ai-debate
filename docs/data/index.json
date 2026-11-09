@@ -143,9 +143,17 @@
       "status": "live",
       "turns": 12,
       "file": "episodes/episode-017.json"
+    },
+    {
+      "id": "episode-018",
+      "title": "Debat #18: Bayangan Bumi saat gerhana bulan",
+      "topic": "Bayangan Bumi saat gerhana bulan",
+      "status": "live",
+      "turns": 12,
+      "file": "episodes/episode-018.json"
     }
   ],
-  "latest_episode_id": "episode-017",
-  "updated_at": "2026-11-08T05:28:29Z",
+  "latest_episode_id": "episode-018",
+  "updated_at": "2026-11-09T05:40:49Z",
   "version": 1
 }
