@@ -1,0 +1,57 @@
+{
+  "id": "episode-019",
+  "title": "Debat #19: Kapal yang menghilang di horizon dan lengkung laut",
+  "topic": "Kapal yang menghilang di horizon dan lengkung laut",
+  "status": "partial",
+  "turns_per_side": 6,
+  "turns": [
+    {
+      "n": 1,
+      "side": "bulat",
+      "speaker": "Kubu Bumi Bulat",
+      "model": "dahono/deepseek-v4.1-flash",
+      "text": "Saya mulai dari yang bisa disaksikan siapa pun: kapal menjauh, lambungnya hilang lebih dulu, tiang baru belakangan. Di permukaan datar, seluruh kapal semestinya menyusut bersamaan tanpa urutan itu. Jarak horizon juga bertambah saat pengamat naik, dan teleskop tajam tidak memunculkan kembali lambung yang sudah di balik lengkung. Ini konsisten dengan Bumi bulat pepat:"
+    },
+    {
+      "n": 2,
+      "side": "datar",
+      "speaker": "Kubu Bumi Datar",
+      "model": "dahono/kimi-k2.8",
+      "text": "Terima kasih, argumen Anda rapi. Tapi izinkan saya tanggapi spesifik. Peristiwa lambung hilang lebih dulu memang bisa dijelaskan tanpa lengkung: semakin jauh, bagian bawah kapal tertutup oleh \"hambatan pandang\" berupa gelombang, kabut laut, dan refraksi atmosfer yang justru membelokkan cahaya ke atas, sehingga yang rendah tenggelam lebih dulu. Soal horizon bertambah saat pengamat naik, itu justru alami di bidang datar luas — naik berarti garis pandang Anda melebar, seperti berdiri di menara memandang hamparan sawah. Dan teleskop? Coba arahkan ke kapal yang sudah \"hilang\" dari pelabuhan, sering kali tiang dan lambungnya muncul kembali di hari yang udaranya jernih."
+    },
+    {
+      "n": 3,
+      "side": "bulat",
+      "speaker": "Kubu Bumi Bulat",
+      "model": "dahono/deepseek-v4.1-flash",
+      "text": "Poin hambatan pandang dan refraksi tidak menjelaskan pola yang konsisten: lambung hil"
+    },
+    {
+      "n": 4,
+      "side": "datar",
+      "speaker": "Kubu Bumi Datar",
+      "model": "dahono/kimi-k2.8",
+      "text": "Poin Anda soal \"konsistensi\" justru menarik. Kalau pembalikan urutan muncul saat kondisi atmosfer tertentu, bukankah itu menandakan yang menentukan adalah keadaan udara dan jarak, bukan kelengkungan permukaan? Pada model datar, gelombang dan lapisan udara hangat memang bisa menutupi bagian bawah lebih dulu secara konsisten, lalu berubah saat suhu bergeser. Sebaliknya, model bola juga butuh penjelasan tambahan untuk kasus terbalik itu, jadi kedua sisi sama-sama bergantung pada variabel selain bentuk Bumi. Yang bisa kita ukur langsung adalah: air tenang selalu rata, dan tidak ada pengamat yang melihat lengkungan dengan matanya sendiri tanpa bantuan lensa atau rekayasa citra."
+    },
+    {
+      "n": 5,
+      "side": "bulat",
+      "speaker": "Kubu Bumi Bulat",
+      "model": "dahono/deepseek-v4.1-flash",
+      "text": "Refraksi memang variabel tambahan, dan saya setuju ia bisa mengubah urutan visual pada kondisi ekstrem. Tapi itu tidak menghapus pola dasar: pada atmosfer normal, lambung hilang lebih dulu secara konsisten, dan horizon punya kemiringan terukur terhadap garis datar—itu yang diprediksi bola, bukan cakram. Air tenang memang tampak rata secara lokal; kelengkungan tidak muncul pada skala kolam. Dan soal “tanpa lensa”: theodolite, pengukuran dip horizon dari ketinggian, serta citra balon/udara tinggi bukan rekayasa, melainkan data yang bisa diuji ulang. Jadi flat masih perlu menjelaskan pola standar dan kemiringan horizon, bukan hanya kasus terbaliknya."
+    },
+    {
+      "n": 6,
+      "side": "datar",
+      "speaker": "Kubu Bumi Datar",
+      "model": "dahono/kimi-k2.8",
+      "text": "Terima kasih, poin Anda soal kemiringan horizon yang \"terukur\" justru bagian paling rapuh dari model bola. Kemiringan itu selalu dihitung dengan asumsi jari-jari 6371 km lebih dulu, lalu \"dikonfirmasi\" oleh instrumen yang dikalibrasi pada asumsi itu—itu penalaran melingkar, bukan bukti independen. Dari ketinggian berapa pun, mata telanjang tak pernah melihat horizon melengkung turun; yang muncul garis lurus dengan kabut makin menipis. Adapun lambung hilang lebih dulu, itu konsisten dengan lapisan udara padat dekat permukaan yang membiaskan dan menyerap cahaya rendah—efek yang menguat dengan jarak, bukan dengan kelengkungan."
+    }
+  ],
+  "models": {
+    "bulat": "dahono/deepseek-v4.1-flash",
+    "datar": "dahono/kimi-k2.8"
+  },
+  "generated_by": "github-actions",
+  "note": "Kedua kubu diperankan AI untuk hiburan/edukasi."
+}
