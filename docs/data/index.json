@@ -159,9 +159,17 @@
       "status": "partial",
       "turns": 6,
       "file": "episodes/episode-019.json"
+    },
+    {
+      "id": "episode-020",
+      "title": "Debat #20: Penerbangan dan rute lintas kutub",
+      "topic": "Penerbangan dan rute lintas kutub",
+      "status": "partial",
+      "turns": 1,
+      "file": "episodes/episode-020.json"
     }
   ],
-  "latest_episode_id": "episode-019",
-  "updated_at": "2026-11-10T06:48:34Z",
+  "latest_episode_id": "episode-020",
+  "updated_at": "2026-11-11T05:35:35Z",
   "version": 1
 }
