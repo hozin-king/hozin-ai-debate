@@ -1,0 +1,14 @@
+{
+  "id": "episode-021",
+  "title": "Debat #21: Satelit, GPS, dan stasiun luar angkasa",
+  "topic": "Satelit, GPS, dan stasiun luar angkasa",
+  "status": "partial",
+  "turns_per_side": 6,
+  "turns": [],
+  "models": {
+    "bulat": "dahono/deepseek-v4.1-flash",
+    "datar": "dahono/kimi-k2.8"
+  },
+  "generated_by": "github-actions",
+  "note": "Kedua kubu diperankan AI untuk hiburan/edukasi."
+}
