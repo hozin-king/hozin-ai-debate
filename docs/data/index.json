@@ -175,9 +175,17 @@
       "status": "partial",
       "turns": 0,
       "file": "episodes/episode-021.json"
+    },
+    {
+      "id": "episode-022",
+      "title": "Debat #22: Air laut yang selalu datar dan permukaan air",
+      "topic": "Air laut yang selalu datar dan permukaan air",
+      "status": "partial",
+      "turns": 0,
+      "file": "episodes/episode-022.json"
     }
   ],
-  "latest_episode_id": "episode-021",
-  "updated_at": "2026-11-12T06:40:50Z",
+  "latest_episode_id": "episode-022",
+  "updated_at": "2026-11-13T05:57:31Z",
   "version": 1
 }
