@@ -215,9 +215,17 @@
       "status": "partial",
       "turns": 0,
       "file": "episodes/episode-026.json"
+    },
+    {
+      "id": "episode-027",
+      "title": "Debat #27: Kapal yang menghilang di horizon dan lengkung laut",
+      "topic": "Kapal yang menghilang di horizon dan lengkung laut",
+      "status": "partial",
+      "turns": 0,
+      "file": "episodes/episode-027.json"
     }
   ],
-  "latest_episode_id": "episode-026",
-  "updated_at": "2026-11-17T07:24:29Z",
+  "latest_episode_id": "episode-027",
+  "updated_at": "2026-11-18T06:49:09Z",
   "version": 1
 }
