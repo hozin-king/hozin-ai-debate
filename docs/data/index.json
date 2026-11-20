@@ -231,9 +231,17 @@
       "status": "partial",
       "turns": 0,
       "file": "episodes/episode-028.json"
+    },
+    {
+      "id": "episode-029",
+      "title": "Debat #29: Satelit, GPS, dan stasiun luar angkasa",
+      "topic": "Satelit, GPS, dan stasiun luar angkasa",
+      "status": "partial",
+      "turns": 0,
+      "file": "episodes/episode-029.json"
     }
   ],
-  "latest_episode_id": "episode-028",
-  "updated_at": "2026-11-19T06:50:01Z",
+  "latest_episode_id": "episode-029",
+  "updated_at": "2026-11-20T06:38:57Z",
   "version": 1
 }
