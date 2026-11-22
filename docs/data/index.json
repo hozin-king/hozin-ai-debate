@@ -247,9 +247,17 @@
       "status": "partial",
       "turns": 0,
       "file": "episodes/episode-030.json"
+    },
+    {
+      "id": "episode-031",
+      "title": "Debat #31: Matahari terbenam dan zona waktu",
+      "topic": "Matahari terbenam dan zona waktu",
+      "status": "partial",
+      "turns": 0,
+      "file": "episodes/episode-031.json"
     }
   ],
-  "latest_episode_id": "episode-030",
-  "updated_at": "2026-11-21T06:31:01Z",
+  "latest_episode_id": "episode-031",
+  "updated_at": "2026-11-22T05:59:22Z",
   "version": 1
 }
