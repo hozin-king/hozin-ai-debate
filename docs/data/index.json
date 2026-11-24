@@ -263,9 +263,17 @@
       "status": "partial",
       "turns": 0,
       "file": "episodes/episode-032.json"
+    },
+    {
+      "id": "episode-033",
+      "title": "Debat #33: Foto Bumi dari luar angkasa dan bentuk planet yang terlihat",
+      "topic": "Foto Bumi dari luar angkasa dan bentuk planet yang terlihat",
+      "status": "partial",
+      "turns": 0,
+      "file": "episodes/episode-033.json"
     }
   ],
-  "latest_episode_id": "episode-032",
-  "updated_at": "2026-11-23T06:51:39Z",
+  "latest_episode_id": "episode-033",
+  "updated_at": "2026-11-24T09:18:28Z",
   "version": 1
 }
