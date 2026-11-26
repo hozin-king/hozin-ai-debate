@@ -279,9 +279,17 @@
       "status": "partial",
       "turns": 0,
       "file": "episodes/episode-034.json"
+    },
+    {
+      "id": "episode-035",
+      "title": "Debat #35: Kapal yang menghilang di horizon dan lengkung laut",
+      "topic": "Kapal yang menghilang di horizon dan lengkung laut",
+      "status": "partial",
+      "turns": 0,
+      "file": "episodes/episode-035.json"
     }
   ],
-  "latest_episode_id": "episode-034",
-  "updated_at": "2026-11-25T07:53:02Z",
+  "latest_episode_id": "episode-035",
+  "updated_at": "2026-11-26T07:43:19Z",
   "version": 1
 }
